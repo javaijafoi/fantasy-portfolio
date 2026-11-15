@@ -1,5 +1,5 @@
-import Desktop from "@/components/Desktop";
+import RomLoader from "@/components/RomLoader";
 
 export default function Home() {
-  return <Desktop />;
+  return <RomLoader />;
 }

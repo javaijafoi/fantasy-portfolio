@@ -1,24 +1,24 @@
 import type { Metadata } from "next";
-import { Press_Start_2P, VT323 } from "next/font/google";
+import { Press_Start_2P, Share_Tech_Mono } from "next/font/google";
 import "./globals.css";
 
 const pressStart = Press_Start_2P({
   weight: "400",
   subsets: ["latin"],
-  variable: "--font-pixel-title",
+  variable: "--font-pixel",
 });
 
-const vt323 = VT323({
+const techMono = Share_Tech_Mono({
   weight: "400",
   subsets: ["latin"],
-  variable: "--font-pixel-body",
+  variable: "--font-mono-clean",
 });
 
 export const metadata: Metadata = {
-  title: "Peter (javaijafoi) | Fantasy Desktop & Quest Log",
-  description: "Portfólio de projetos no GitHub e Vercel ambientado em um sistema operacional de fantasia retrô 16-bit.",
+  title: "JAVAI-OS // ROM LOADER",
+  description: "Retro Flash Cartridge & ROM Selector - Portfólio de Peter (javaijafoi)",
   icons: {
-    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧙</text></svg>",
+    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕹️</text></svg>",
   },
 };
 
@@ -28,8 +28,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className={`${pressStart.variable} ${vt323.variable} h-full select-none`}>
-      <body className="h-full w-full overflow-hidden bg-slate-900 font-sans text-slate-100 antialiased">
+    <html lang="pt-BR" className={`${pressStart.variable} ${techMono.variable} h-full`}>
+      <body className="h-full w-full bg-[#0a0c10] text-slate-100 antialiased overflow-x-hidden selection:bg-amber-500 selection:text-black">
         {children}
       </body>
     </html>

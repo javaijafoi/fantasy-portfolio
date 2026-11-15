@@ -1,98 +1,73 @@
 @import "tailwindcss";
 
 @theme {
-  --font-pixel: var(--font-pixel-title), monospace;
-  --font-pixel-text: var(--font-pixel-body), monospace;
+  --font-pixel: var(--font-pixel), monospace;
+  --font-mono-clean: var(--font-mono-clean), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
 :root {
-  --retro-bg: #1c1d29;
-  --win-bg: #2a2b3d;
-  --win-border-light: #4f5270;
-  --win-border-dark: #12131c;
-  --win-accent: #6366f1;
-  --gold: #f59e0b;
+  --arcade-bg: #0b0d13;
+  --arcade-panel: #121620;
+  --arcade-border: #263045;
+  --arcade-accent: #38bdf8;
+  --arcade-amber: #f59e0b;
 }
 
-/* Custom Pixel Retro Styles */
+body {
+  font-family: var(--font-mono-clean), ui-monospace, monospace;
+  background-color: var(--arcade-bg);
+}
+
 .font-pixel {
-  font-family: var(--font-pixel-title), monospace;
+  font-family: var(--font-pixel), monospace;
 }
 
-.font-pixel-text {
-  font-family: var(--font-pixel-body), monospace;
+.font-mono-clean {
+  font-family: var(--font-mono-clean), ui-monospace, monospace;
 }
 
-/* Retro Raised Button */
-.retro-box-raised {
-  background-color: #2e3047;
-  border-top: 2px solid #5a5e8c;
-  border-left: 2px solid #5a5e8c;
-  border-bottom: 2px solid #141521;
-  border-right: 2px solid #141521;
-  box-shadow: 1px 1px 0px #090a0f;
+/* Subtle CRT Scanlines */
+.crt-overlay {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  ), linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.03),
+    rgba(0, 255, 0, 0.01),
+    rgba(0, 0, 255, 0.03)
+  );
+  background-size: 100% 3px, 6px 100%;
+  pointer-events: none;
 }
 
-.retro-box-sunken {
-  background-color: #1a1b29;
-  border-top: 2px solid #10111a;
-  border-left: 2px solid #10111a;
-  border-bottom: 2px solid #484b6f;
-  border-right: 2px solid #484b6f;
+/* ROM Loader Box Borders */
+.rom-panel {
+  background-color: #11151f;
+  border: 2px solid #232c3d;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05), 0 8px 24px rgba(0, 0, 0, 0.5);
 }
 
-.retro-button {
-  background-color: #3b3e5b;
-  border-top: 2px solid #6b70a3;
-  border-left: 2px solid #6b70a3;
-  border-bottom: 2px solid #191a26;
-  border-right: 2px solid #191a26;
-  cursor: pointer;
-  transition: all 0.05s ease;
+.rom-selected {
+  background: linear-gradient(90deg, rgba(56, 189, 248, 0.2) 0%, rgba(56, 189, 248, 0.05) 100%);
+  border-left: 4px solid #38bdf8;
 }
 
-.retro-button:hover {
-  background-color: #464a6d;
-}
-
-.retro-button:active {
-  background-color: #2b2c40;
-  border-top: 2px solid #191a26;
-  border-left: 2px solid #191a26;
-  border-bottom: 2px solid #6b70a3;
-  border-right: 2px solid #6b70a3;
-  transform: translate(1px, 1px);
-}
-
-/* Fantasy Desktop Wallpaper Pattern */
-.fantasy-wallpaper {
-  background-color: #0d0e15;
-  background-image: 
-    radial-gradient(circle at 50% 50%, rgba(56, 40, 92, 0.45) 0%, transparent 70%),
-    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
-  background-size: 100% 100%, 32px 32px, 32px 32px;
-}
-
-/* Retro Scrollbars */
+/* Custom Scrollbars */
 ::-webkit-scrollbar {
-  width: 14px;
-  height: 14px;
+  width: 8px;
+  height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #1a1b29;
-  border-left: 1px solid #10111a;
+  background: #0b0d13;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #3c3f5e;
-  border-top: 2px solid #616698;
-  border-left: 2px solid #616698;
-  border-bottom: 2px solid #171824;
-  border-right: 2px solid #171824;
+  background: #232c3d;
+  border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #4a4e75;
+  background: #3b4861;
 }

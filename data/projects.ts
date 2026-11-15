@@ -1,321 +1,149 @@
-export interface Project {
+export interface RomProject {
   id: string;
+  romName: string;
   title: string;
-  questName: string;
-  category: "games" | "tools" | "apps" | "rpg";
-  categoryLabel: string;
-  rank: "SSR" | "S" | "A" | "B";
-  level: number;
-  xpReward: number;
-  shortDesc: string;
-  lore: string;
-  techs: { name: string; bonus: string }[];
-  vercelUrl?: string;
+  subtitle: string;
+  genre: string;
+  year: string;
+  system: string;
+  developer: string;
+  description: string;
+  specs: { label: string; value: string }[];
+  vercelUrl: string;
   githubUrl?: string;
-  status: "Completed" | "Legendary" | "Active";
+  fileSize: string;
+  status: "ONLINE" | "STABLE";
+  boxColor: string;
+  accentColor: string;
   icon: string;
+  previewArt: string; // ASCII / Pixel Art or visual banner
 }
 
-export const HERO_PROFILE = {
-  name: "Peter (javaijafoi)",
-  title: "Arquimago Fullstack & Artífice de IA",
-  guild: "Vercel & GitHub Adventurers",
-  level: 42,
-  currentXP: 14850,
-  nextLevelXP: 16000,
-  hp: "740 / 740",
-  mana: "1280 / 1280",
-  bio: "Desenvolvedor e criador de mundos interativos. Forjador de ferramentas inteligentes, interfaces mágicas, jogos e sistemas na névoa da nuvem.",
-  attributes: [
-    { name: "INT (Algoritmos & IA)", value: 96, max: 100, color: "bg-blue-500" },
-    { name: "DEX (Frontend & Agilidade)", value: 92, max: 100, color: "bg-emerald-500" },
-    { name: "WIS (Arquitetura & Clean Code)", value: 90, max: 100, color: "bg-purple-500" },
-    { name: "STR (DevOps & Resiliência)", value: 88, max: 100, color: "bg-amber-500" },
-  ],
-  skills: [
-    { name: "Next.js & React", level: "Mestre", spell: "Invocação de Interfaces Vivas" },
-    { name: "TypeScript", level: "Grão-Mestre", spell: "Escudo Anti-Bug & Tipagem Rígida" },
-    { name: "Tailwind CSS", level: "Mestre", spell: "Transmutação Visual Instantânea" },
-    { name: "AI & Autonomous Agents", level: "Adepto Notável", spell: "Convocação de Golems Inteligentes" },
-    { name: "Game Design & Micro-Consoles", level: "Especialista", spell: "Encantamento Lúdico em Pixel Art" },
-    { name: "Vercel & Edge Deployment", level: "Mestre", spell: "Teletransporte de Código em Milissegundos" },
-  ],
-  socials: [
-    { name: "GitHub", url: "https://github.com/javaijafoi", handle: "@javaijafoi" },
-    { name: "Vercel", url: "https://vercel.com/peters-projects-e3041d69", handle: "javaijafoi" },
-  ]
-};
-
-export const PROJECTS: Project[] = [
+export const ROM_LIST: RomProject[] = [
   {
     id: "antigravitus",
+    romName: "ANTIGRAVITUS.ROM",
     title: "Antigravitus",
-    questName: "A Forja dos Agentes da Gravidade Zero",
-    category: "tools",
-    categoryLabel: "Ferramentas & IA",
-    rank: "SSR",
-    level: 50,
-    xpReward: 1200,
-    shortDesc: "Oráculo de automação e comandos de agentes arcanos com poderes gravitacionais.",
-    lore: "Forjado para canalizar as forças antigravitacionais da automação inteligente. Conecta comandos orquestrados a agentes autônomos capazes de realizar proezas no éter digital.",
-    techs: [
-      { name: "Next.js", bonus: "+25 INT" },
-      { name: "AI Agents", bonus: "+40 MAG" },
-      { name: "TypeScript", bonus: "+20 DEF" },
-      { name: "Vercel Edge", bonus: "+15 SPD" },
+    subtitle: "Oráculo & Orquestrador de Agentes Autônomos",
+    genre: "AI / Automation Engine",
+    year: "2024",
+    system: "NEXT-GEN VERCEL EDGE",
+    developer: "Peter (@javaijafoi)",
+    description:
+      "Plataforma inteligente para orquestração e execução de comandos com agentes de inteligência artificial. Conecta prompts avançados a fluxos de trabalho autônomos na nuvem.",
+    specs: [
+      { label: "Core Tech", value: "Next.js / TypeScript" },
+      { label: "AI Engine", value: "Autonomous Agents" },
+      { label: "Hosting", value: "Vercel Edge Network" },
+      { label: "License", value: "Open Source" },
     ],
     vercelUrl: "https://antigravitus.vercel.app",
     githubUrl: "https://github.com/javaijafoi/antigravitus",
-    status: "Legendary",
+    fileSize: "16.4 MB",
+    status: "ONLINE",
+    boxColor: "from-indigo-600 to-purple-800",
+    accentColor: "#818cf8",
     icon: "⚡",
+    previewArt: `
+  ▲  [ANTIGRAVITUS-CORE]
+ / \\  AI AGENT RUNTIME
+/___\\ STATUS: OPTIMAL
+ [⚡] ZERO-G AUTOMATION
+    `,
   },
   {
     id: "picotron-arena",
+    romName: "PICOTRON_ARENA.ROM",
     title: "Picotron Arena",
-    questName: "O Torneio do Micro-Computador Encantado",
-    category: "games",
-    categoryLabel: "Jogos & Arcade",
-    rank: "S",
-    level: 45,
-    xpReward: 950,
-    shortDesc: "Arena de jogos retrô e experimentos no ecossistema do micro-computador Picotron.",
-    lore: "Um portal para a era de ouro dos micro-consoles. Jogadores e heróis enfrentam desafios pixelados em circuitos fictícios rodando no coração do navegador.",
-    techs: [
-      { name: "Pico-8 / Picotron", bonus: "+30 DEX" },
-      { name: "Pixel Art", bonus: "+20 CHA" },
-      { name: "Game Loop", bonus: "+25 SPD" },
-      { name: "JavaScript", bonus: "+15 INT" },
+    subtitle: "Arena Arcade no Micro-Computador Retrô",
+    genre: "Arcade / GameDev",
+    year: "2024",
+    system: "PICOTRON 16-BIT CONSOLE",
+    developer: "Peter (@javaijafoi)",
+    description:
+      "Experiência arcade e laboratório de jogos desenvolvidos para o ecossistema do micro-computador Picotron. Combina estética pixel art vintage com game loops otimizados no navegador.",
+    specs: [
+      { label: "Engine", value: "Picotron / Pico-8" },
+      { label: "Language", value: "Lua / JavaScript" },
+      { label: "Graphics", value: "16-Color Palette / 60 FPS" },
+      { label: "Audio", value: "Chiptune Synthesizer" },
     ],
     vercelUrl: "https://picotron-arena.vercel.app",
     githubUrl: "https://github.com/javaijafoi/picotron-arcade",
-    status: "Completed",
-    icon: "🎮",
-  },
-  {
-    id: "ihunt-chronicle",
-    title: "iHunt Chronicle & Tabletop",
-    questName: "As Crônicas dos Caçadores Sobrenaturais",
-    category: "rpg",
-    categoryLabel: "RPG & Mesa",
-    rank: "S",
-    level: 48,
-    xpReward: 1050,
-    shortDesc: "Grimório digital e apoio narrativo para campanhas do RPG de horror contemporâneo #iHunt.",
-    lore: "Nas sombras da economia moderna, caçadores de monstros usam aplicativos para sobreviver e pagar o aluguel. Um conjunto completo de ferramentas táticas, fichas e registros de caçadas.",
-    techs: [
-      { name: "React / Next.js", bonus: "+25 INT" },
-      { name: "RPG Engine", bonus: "+35 WIS" },
-      { name: "Tailwind CSS", bonus: "+15 DEX" },
-      { name: "State Sync", bonus: "+20 DEF" },
-    ],
-    vercelUrl: "https://ihunt-chronicle.vercel.app",
-    githubUrl: "https://github.com/javaijafoi/ihunt-chronicle",
-    status: "Completed",
-    icon: "📜",
-  },
-  {
-    id: "jogarpg",
-    title: "JogaRPG",
-    questName: "A Taverna das Sessões Virtuais",
-    category: "rpg",
-    categoryLabel: "RPG & Mesa",
-    rank: "S",
-    level: 44,
-    xpReward: 900,
-    shortDesc: "Plataforma e mesa virtual para jogadores e mestres rolarem dados e contarem sagas.",
-    lore: "Mestres de taverna reúnem seus aventureiros ao redor de dados poliédricos mágicos e anotações compartilhadas, permitindo campanhas imersivas sem limites geográficos.",
-    techs: [
-      { name: "Virtual Tabletop", bonus: "+30 WIS" },
-      { name: "WebSockets / Realtime", bonus: "+25 SPD" },
-      { name: "UI Design", bonus: "+20 CHA" },
-    ],
-    vercelUrl: "https://jogarpg.vercel.app",
-    githubUrl: "https://github.com/javaijafoi/ihunt-tabletop",
-    status: "Completed",
-    icon: "🎲",
+    fileSize: "4.2 MB",
+    status: "ONLINE",
+    boxColor: "from-emerald-600 to-teal-800",
+    accentColor: "#34d399",
+    icon: "🕹️",
+    previewArt: `
++-----------------------+
+|  [>] PICOTRON ARCADE  |
+|  * * SCORE: 999990 *  |
+|      ( o . o )        |
+|  INSERT COIN TO PLAY  |
++-----------------------+
+    `,
   },
   {
     id: "jogo-davi",
-    title: "Jogo Davi",
-    questName: "A Jornada do Pequeno Campeão",
-    category: "games",
-    categoryLabel: "Jogos & Arcade",
-    rank: "A",
-    level: 38,
-    xpReward: 750,
-    shortDesc: "Experiência de jogo educativa e lúdica customizada repleta de animações e desafios interativos.",
-    lore: "Criado sob medida com carinho e magia para divertir, ensinar e desafiar jovens aventureiros através de mini-jogos dinâmicos e recompensas coloridas.",
-    techs: [
-      { name: "Interactive Canvas", bonus: "+20 DEX" },
-      { name: "CSS Animations", bonus: "+25 CHA" },
-      { name: "Sound FX", bonus: "+15 MAG" },
+    romName: "JOGO_DAVI.ROM",
+    title: "Jogo do Davi",
+    subtitle: "Aventura Interativa & Desafios Lúdicos",
+    genre: "Kids / Educational Adventure",
+    year: "2024",
+    system: "HTML5 CANVAS V2",
+    developer: "Peter (@javaijafoi)",
+    description:
+      "Jogo interativo repleto de animações, dinâmicas de raciocínio e fases customizadas, criado para encantar e desafiar jovens jogadores através do navegador.",
+    specs: [
+      { label: "Frontend", value: "React / HTML5 Canvas" },
+      { label: "Target", value: "Mobile & Desktop Web" },
+      { label: "Audio", value: "Efeitos Sonoros Lúdicos" },
+      { label: "Build", value: "Vercel Optimized" },
     ],
     vercelUrl: "https://jogo-davi.vercel.app",
     githubUrl: "https://github.com/javaijafoi/Jogo-davi",
-    status: "Completed",
+    fileSize: "8.1 MB",
+    status: "ONLINE",
+    boxColor: "from-amber-600 to-orange-800",
+    accentColor: "#fbbf24",
     icon: "🌟",
-  },
-  {
-    id: "acompanha-escola",
-    title: "Acompanha Escola",
-    questName: "O Compêndio da Sabedoria Escolar",
-    category: "apps",
-    categoryLabel: "Apps & Plataformas",
-    rank: "A",
-    level: 40,
-    xpReward: 850,
-    shortDesc: "Plataforma de gestão, acompanhamento de frequência e métricas educacionais.",
-    lore: "Um portal administrativo que traduz montanhas de registros pedagógicos em painéis visuais claros, permitindo aos mestres da guilda escolar orientar seus aprendizes.",
-    techs: [
-      { name: "Dashboard UI", bonus: "+25 WIS" },
-      { name: "Data Processing", bonus: "+30 INT" },
-      { name: "Auth & Roles", bonus: "+20 DEF" },
-    ],
-    vercelUrl: "https://acompanha-escola.vercel.app",
-    githubUrl: "https://github.com/javaijafoi/acompanha-escola",
-    status: "Completed",
-    icon: "🏫",
-  },
-  {
-    id: "dashboard-rna",
-    title: "Dashboard RNA",
-    questName: "O Telescópio Sináptico de Redes Neurais",
-    category: "tools",
-    categoryLabel: "Ferramentas & IA",
-    rank: "S",
-    level: 46,
-    xpReward: 950,
-    shortDesc: "Painel analítico para inspeção e visualização de pesos e predições de redes neurais artificiais.",
-    lore: "Permite perscrutar o pensamento dos cérebros artificiais de silício, transformando tensores complexos e matrizes em gráficos interativos compreensíveis.",
-    techs: [
-      { name: "Neural Networks", bonus: "+40 INT" },
-      { name: "Data Visualization", bonus: "+25 WIS" },
-      { name: "React", bonus: "+20 DEX" },
-    ],
-    vercelUrl: "https://dashboard-rna.vercel.app",
-    githubUrl: "https://github.com/javaijafoi/dashboard-rna",
-    status: "Completed",
-    icon: "🧠",
-  },
-  {
-    id: "radargeeksp",
-    title: "Radar Geek SP",
-    questName: "O Astrolábio de Eventos da Metrópole",
-    category: "apps",
-    categoryLabel: "Apps & Plataformas",
-    rank: "A",
-    level: 39,
-    xpReward: 800,
-    shortDesc: "Mapeamento em tempo real de convenções, feiras e pontos de encontro da cultura geek em SP.",
-    lore: "Guiando aventureiros errantes pelas vielas de São Paulo até os pontos quentes de RPG, quadrinhos, jogos de tabuleiro e festivais fantásticos.",
-    techs: [
-      { name: "Geolocation & Maps", bonus: "+25 SPD" },
-      { name: "Event Aggregation", bonus: "+20 WIS" },
-      { name: "Mobile First UI", bonus: "+20 DEX" },
-    ],
-    vercelUrl: "https://radargeeksp.vercel.app",
-    githubUrl: "https://github.com/javaijafoi/radargeeksp",
-    status: "Completed",
-    icon: "📍",
+    previewArt: `
+  ★ JOGO DO DAVI ★
+ [====================]
+   \\(^_^) /  CAMPIONE!
+  [ FASE 1: AVENTURA ]
+    `,
   },
   {
     id: "matusalem",
+    romName: "MATUSALEM.ROM",
     title: "Matusalém",
-    questName: "O Relógio dos Milênios",
-    category: "tools",
-    categoryLabel: "Ferramentas & IA",
-    rank: "B",
-    level: 34,
-    xpReward: 650,
-    shortDesc: "Calculadora temporal e estimador de longevidade algorítmica.",
-    lore: "Um artefato que mede a passagem das eras, convertendo datas estelares e ciclos solares em estatísticas precisas sobre a duração de projetos e entidades.",
-    techs: [
-      { name: "Time Engine", bonus: "+20 INT" },
-      { name: "JavaScript", bonus: "+15 DEX" },
+    subtitle: "Oráculo Algorítmico de Longevidade & Tempo",
+    genre: "Utility / Time Calculator",
+    year: "2024",
+    system: "WEB UTILITY RUNTIME",
+    developer: "Peter (@javaijafoi)",
+    description:
+      "Calculadora temporal algorítmica desenhada para estimar ciclos de longevidade, passagens de era e métricas cronológicas com alta precisão.",
+    specs: [
+      { label: "Type", value: "Mathematical Tool" },
+      { label: "Core", value: "JavaScript / Algoritmos" },
+      { label: "Deployment", value: "Vercel Serverless" },
+      { label: "Speed", value: "Instant Execution" },
     ],
     vercelUrl: "https://matusalem-six.vercel.app",
-    status: "Completed",
+    fileSize: "2.8 MB",
+    status: "ONLINE",
+    boxColor: "from-blue-600 to-cyan-800",
+    accentColor: "#38bdf8",
     icon: "⏳",
+    previewArt: `
+   .---.     MATUSALEM
+  /     \\    CHRONOS ENGINE
+ | TIME  |   YEARS: 969
+  \\     /    [=== 100% ===]
+   '---'
+    `,
   },
-  {
-    id: "jojomath",
-    title: "Jojomath",
-    questName: "Os Enigmas da Geometria Arcana",
-    category: "games",
-    categoryLabel: "Jogos & Arcade",
-    rank: "B",
-    level: 35,
-    xpReward: 650,
-    shortDesc: "Desafios matemáticos gamificados com dinâmicas de progressão e conquistas.",
-    lore: "Um treino de combate mental onde cálculos rápidos derrotam monstros numéricos e desbloqueiam selos de mestre da aritmética.",
-    techs: [
-      { name: "Math Logic", bonus: "+25 INT" },
-      { name: "Gamification", bonus: "+20 CHA" },
-    ],
-    vercelUrl: "https://jojomath.vercel.app",
-    githubUrl: "https://github.com/javaijafoi/jojomath",
-    status: "Completed",
-    icon: "📐",
-  },
-  {
-    id: "pinta-kara",
-    title: "Pinta-Kara",
-    questName: "O Cavalete dos Artífices Mágicos",
-    category: "games",
-    categoryLabel: "Jogos & Arcade",
-    rank: "A",
-    level: 37,
-    xpReward: 700,
-    shortDesc: "Ferramenta de desenho e pintura interativa sobre telas digitais com paletas vibrantes.",
-    lore: "Com pincéis mágicos encantados, permite a qualquer aprendiz tingir telas em branco, misturar pigmentos arcanos e exportar obras primas.",
-    techs: [
-      { name: "HTML5 Canvas API", bonus: "+30 DEX" },
-      { name: "Color Theory", bonus: "+15 CHA" },
-    ],
-    vercelUrl: "https://pinta-kara.vercel.app",
-    githubUrl: "https://github.com/javaijafoi/pinta-kara",
-    status: "Completed",
-    icon: "🎨",
-  },
-  {
-    id: "encruzilhadas",
-    title: "Encruzilhadas & PoC Vampire",
-    questName: "O Pacto nas Sombras da Noite Eterna",
-    category: "rpg",
-    categoryLabel: "RPG & Mesa",
-    rank: "S",
-    level: 43,
-    xpReward: 880,
-    shortDesc: "Ficção interativa ramificada e simulação de dilemas morais em universos de horror pessoal.",
-    lore: "Cada decisão tomada reverbera na escuridão. Um teste de conceito imersivo para mecânicas de narrativa reativa e gerenciamento de fome e humanidade.",
-    techs: [
-      { name: "Narrative Trees", bonus: "+30 WIS" },
-      { name: "Atmospheric Audio", bonus: "+20 MAG" },
-      { name: "Dark Theme CSS", bonus: "+15 CHA" },
-    ],
-    vercelUrl: "https://encruzilhadas.vercel.app",
-    githubUrl: "https://github.com/javaijafoi/poc-vampire",
-    status: "Completed",
-    icon: "🦇",
-  },
-  {
-    id: "fatedice",
-    title: "Fate Dice & Dice Roller",
-    questName: "O Oráculo dos Lados do Destino",
-    category: "tools",
-    categoryLabel: "Ferramentas & IA",
-    rank: "B",
-    level: 32,
-    xpReward: 600,
-    shortDesc: "Simulador de rolagens com suporte ao sistema FATE (-1, 0, +1) e dados poliédricos D&D.",
-    lore: "Quando o destino depende de um rolar na madeira da mesa, este oráculo garante a verdadeira aleatoriedade criptográfica dos dados.",
-    techs: [
-      { name: "Probability Engine", bonus: "+20 INT" },
-      { name: "CSS 3D Transforms", bonus: "+20 DEX" },
-    ],
-    vercelUrl: "https://playground-zeta-ruddy.vercel.app",
-    githubUrl: "https://github.com/javaijafoi/fatedice",
-    status: "Completed",
-    icon: "🎯",
-  }
 ];
