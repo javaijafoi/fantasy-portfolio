@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  --font-pixel: var(--font-pixel-title), monospace;
+  --font-pixel-text: var(--font-pixel-body), monospace;
+}
+
+:root {
+  --retro-bg: #1c1d29;
+  --win-bg: #2a2b3d;
+  --win-border-light: #4f5270;
+  --win-border-dark: #12131c;
+  --win-accent: #6366f1;
+  --gold: #f59e0b;
+}
+
+/* Custom Pixel Retro Styles */
+.font-pixel {
+  font-family: var(--font-pixel-title), monospace;
+}
+
+.font-pixel-text {
+  font-family: var(--font-pixel-body), monospace;
+}
+
+/* Retro Raised Button */
+.retro-box-raised {
+  background-color: #2e3047;
+  border-top: 2px solid #5a5e8c;
+  border-left: 2px solid #5a5e8c;
+  border-bottom: 2px solid #141521;
+  border-right: 2px solid #141521;
+  box-shadow: 1px 1px 0px #090a0f;
+}
+
+.retro-box-sunken {
+  background-color: #1a1b29;
+  border-top: 2px solid #10111a;
+  border-left: 2px solid #10111a;
+  border-bottom: 2px solid #484b6f;
+  border-right: 2px solid #484b6f;
+}
+
+.retro-button {
+  background-color: #3b3e5b;
+  border-top: 2px solid #6b70a3;
+  border-left: 2px solid #6b70a3;
+  border-bottom: 2px solid #191a26;
+  border-right: 2px solid #191a26;
+  cursor: pointer;
+  transition: all 0.05s ease;
+}
+
+.retro-button:hover {
+  background-color: #464a6d;
+}
+
+.retro-button:active {
+  background-color: #2b2c40;
+  border-top: 2px solid #191a26;
+  border-left: 2px solid #191a26;
+  border-bottom: 2px solid #6b70a3;
+  border-right: 2px solid #6b70a3;
+  transform: translate(1px, 1px);
+}
+
+/* Fantasy Desktop Wallpaper Pattern */
+.fantasy-wallpaper {
+  background-color: #0d0e15;
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(56, 40, 92, 0.45) 0%, transparent 70%),
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 100% 100%, 32px 32px, 32px 32px;
+}
+
+/* Retro Scrollbars */
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1b29;
+  border-left: 1px solid #10111a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3c3f5e;
+  border-top: 2px solid #616698;
+  border-left: 2px solid #616698;
+  border-bottom: 2px solid #171824;
+  border-right: 2px solid #171824;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4a4e75;
+}
