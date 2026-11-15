@@ -1,10 +1,3 @@
-export interface EasyModeConfig {
-  label: string;
-  perks: string[];
-  tip: string;
-  simplifiedDesc: string;
-}
-
 export interface ProjectCard {
   id: string;
   tag: string;
@@ -19,7 +12,6 @@ export interface ProjectCard {
   githubUrl?: string;
   icon: string;
   rating: string;
-  easyMode: EasyModeConfig;
 }
 
 export const CALIFORNIA_PROJECTS: ProjectCard[] = [
@@ -38,16 +30,6 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     githubUrl: "https://github.com/javaijafoi/antigravitus",
     icon: "⚡",
     rating: "AI POWERED",
-    easyMode: {
-      label: "⭐ MODO FÁCIL: Leitura de Crônicas em 1-Toque",
-      perks: [
-        "Capítulos ilustrados e fáceis de ler",
-        "Acompanhe o herói sem precisar jogar comandos difíceis de terminal",
-        "Mapas visuais automáticos das aventuras",
-      ],
-      tip: "💡 Dica Fácil: Abra a página e clique no mapa para ver onde o herói está explorando agora!",
-      simplifiedDesc: "Histórias e quadrinhos de um herói de videogame jogado por robôs inteligentes!",
-    },
   },
   {
     id: "picotron-arena",
@@ -64,16 +46,6 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     githubUrl: "https://github.com/javaijafoi/picotron-arcade",
     icon: "🕹️",
     rating: "ARCADE HIT",
-    easyMode: {
-      label: "⭐ MODO FÁCIL: Controles Amigáveis & Vidas Livres",
-      perks: [
-        "Controles super simples na tela ou no teclado",
-        "Velocidade reduzida para desviar com calma",
-        "Sons divertidos estilo videogame antigo",
-      ],
-      tip: "💡 Dica Fácil: Aperte Espaço ou toque na tela para começar e divirta-se nos minigames!",
-      simplifiedDesc: "Fliperama retrô cheio de minigames divertidos de navezinhas e desafios coloridos!",
-    },
   },
   {
     id: "jogo-davi",
@@ -90,16 +62,6 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     githubUrl: "https://github.com/javaijafoi/Jogo-davi",
     icon: "🌴",
     rating: "ALL AGES",
-    easyMode: {
-      label: "⭐ MODO FÁCIL: Aventura Sem Erro & Dicas Visuais",
-      perks: [
-        "Dicas que mostram a resposta quando tiver dúvida",
-        "Nenhum ponto perdido ao errar: tente de novo à vontade",
-        "Letras grandes e números falados",
-      ],
-      tip: "💡 Dica Fácil: Clique nas letras coloridas para ouvir o som e acertar a palavra!",
-      simplifiedDesc: "Jogo super gostoso para aprender letrinhas, vogais e números se divertindo!",
-    },
   },
   {
     id: "matusalem",
@@ -115,16 +77,6 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     vercelUrl: "https://matusalem-six.vercel.app",
     icon: "⏳",
     rating: "STORY MODE",
-    easyMode: {
-      label: "⭐ MODO FÁCIL: Detetive Guiado & Pistas Claras",
-      perks: [
-        "Pistas marcadas em destaque para não se perder",
-        "Escolhas mais fáceis para desvendar o segredo",
-        "Sem tempo limite: investigue no seu próprio ritmo",
-      ],
-      tip: "💡 Dica Fácil: Leia as opções com calma e escolha a pista que achar mais curiosa!",
-      simplifiedDesc: "Um livrinho de mistério interativo onde você é o detetive e escolhe o que acontece!",
-    },
   },
   {
     id: "era-vargas",
@@ -141,16 +93,6 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     githubUrl: "https://github.com/javaijafoi/era-vargas-seliga",
     icon: "🎭",
     rating: "HISTORY MODE",
-    easyMode: {
-      label: "⭐ MODO FÁCIL: Presidente Tranquilo (Equilíbrio Amigável)",
-      perks: [
-        "Pilares mais resistentes que não caem fácil",
-        "Dicas que explicam o que o povo e o exército querem",
-        "Visão 3D divertida do palácio",
-      ],
-      tip: "💡 Dica Fácil: Tente manter as barras no meio para governar sem levar golpe!",
-      simplifiedDesc: "Um jogo 3D onde você toma decisões no palácio do presidente e aprende história!",
-    },
   },
   {
     id: "pinta-kara",
@@ -167,16 +109,6 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     githubUrl: "https://github.com/javaijafoi/pinta-kara",
     icon: "✋",
     rating: "HANDS ON",
-    easyMode: {
-      label: "⭐ MODO FÁCIL: Pincel Mágico com as Mãos",
-      perks: [
-        "Detecção de mãos super rápida e sensível",
-        "Cores brilhantes e traços automáticos",
-        "Desenhe no ar como se fosse mágica de verdade",
-      ],
-      tip: "💡 Dica Fácil: Mostre a mão para a webcam e junte os dedinhos para pintar no ar!",
-      simplifiedDesc: "Pinte e desenhe no ar usando as mãos na frente da câmera como se fosse mágica!",
-    },
   },
   {
     id: "ihunt-chronicle",
@@ -193,16 +125,6 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     githubUrl: "https://github.com/javaijafoi/ihunt-chronicle",
     icon: "🩸",
     rating: "ON HOLD",
-    easyMode: {
-      label: "⭐ MODO FÁCIL: Gerador Rápido de Monstros",
-      perks: [
-        "Gere monstros com 1 clique para suas histórias",
-        "Tokens e fichas pré-prontas",
-        "Sem regras complicadas para consultar",
-      ],
-      tip: "💡 Dica Fácil: Clique no gerador de fichas para criar criaturas fantásticas na hora!",
-      simplifiedDesc: "Mesa de RPG e criador de monstros legais para inventar histórias de aventura!",
-    },
   },
   {
     id: "rolador",
@@ -219,15 +141,5 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     githubUrl: "https://github.com/javaijafoi/rolador",
     icon: "🎲",
     rating: "ROLL INITIATIVE",
-    easyMode: {
-      label: "⭐ MODO FÁCIL: Rolador de Dados em 1 Toque",
-      perks: [
-        "Aperte o botão do dado e ele rola com barulhinho 8-bit",
-        "Soma o resultado sozinho na tela",
-        "Sem contas difíceis de cabeça",
-      ],
-      tip: "💡 Dica Fácil: Clique em D20 ou D6 e veja o número da sorte aparecer!",
-      simplifiedDesc: "Dados mágicos de videogame que você joga apertando a tela com barulhos retrô!",
-    },
   },
 ];
