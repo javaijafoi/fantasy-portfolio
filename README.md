@@ -8,24 +8,24 @@ Portfólio interativo retrô inspirado na estética dos anos 80, synthwave e arc
 
 ## 🕹️ Projetos em Destaque
 
-1. **⚡ Antigravitus** (`Track 01 // AI Overdrive`)  
-   * Orquestrador e executor de comandos com agentes de inteligência artificial autônomos.  
-   * *Stack:* Next.js, AI Agents, TypeScript, Vercel Edge  
+1. **⚡ Antigravitus** (`Track 01 // Roleplay Log`)  
+   * Diário de aventuras num RPG de texto (Devil's Bob MUD), jogado por agentes de IA em rotinas supervisionadas e contado em crônicas.  
+   * *Stack:* Python, Agentes de IA, HTML/CSS/JS, MUD  
    * [Live Demo](https://antigravitus.vercel.app) • [GitHub](https://github.com/javaijafoi/antigravitus)
 
-2. **🕹️ Picotron Arena** (`Track 02 // 16-Bit Arcade`)  
-   * Arena e laboratório de jogos retrô desenvolvidos para o ecossistema do micro-computador Picotron.  
-   * *Stack:* Picotron, Pico-8, Lua / JavaScript, GameDev  
+2. **🕹️ Picotron Arena** (`Track 02 // Arcade`)  
+   * Dez modos de arcade caóticos numa estação retrô inspirada no Picotron, num único arquivo HTML, para PC e celular.  
+   * *Stack:* JavaScript, Canvas, HTML único, localStorage  
    * [Live Demo](https://picotron-arena.vercel.app) • [GitHub](https://github.com/javaijafoi/picotron-arcade)
 
-3. **🌴 Jogo do Davi** (`Track 03 // Sunny Adventure`)  
-   * Aventura lúdica interativa com animações fluidas e mini-jogos.  
-   * *Stack:* React, HTML5 Canvas, Tailwind CSS  
+3. **🌴 Jogo do Davi** (`Track 03 // Alfabetização`)  
+   * Jogo para crianças aprenderem a ler e a contar, com sessões curtas, erro sem punição e revisão do que ficou difícil.  
+   * *Stack:* React, TypeScript, Vite  
    * [Live Demo](https://jogo-davi.vercel.app) • [GitHub](https://github.com/javaijafoi/Jogo-davi)
 
-4. **⏳ Matusalém** (`Track 04 // Chronos Warp`)  
-   * Calculadora e oráculo algorítmico de longevidade e métricas temporais.  
-   * *Stack:* JavaScript, Algoritmos Temporais, Serverless  
+4. **⏳ Matusalém** (`Track 04 // Noir Paulistano`)  
+   * História interativa de mistério no Bixiga, em que cada escolha muda a investigação.  
+   * *Stack:* ink, inkjs, JavaScript  
    * [Live Demo](https://matusalem-six.vercel.app)
 
 ---

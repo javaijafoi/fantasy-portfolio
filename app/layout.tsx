@@ -15,7 +15,7 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: "CALIFORNIA DREAMS '88 // Peter's Arcade",
-  description: "Portfólio retrô anos 80 - Sunset, Synthwave & Projetos no Ar",
+  description: "Portfólio do Peter (@javaijafoi): jogos, histórias interativas e experimentos com IA, todos no ar.",
   icons: {
     icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌴</text></svg>",
   },

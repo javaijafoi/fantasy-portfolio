@@ -120,10 +120,10 @@ export default function CaliforniaVibes() {
             ★ SELECT YOUR TRACK // 4 PROJETOS NO AR ★
           </span>
           <h2 className="font-retro text-3xl md:text-5xl text-white tracking-wide">
-            PROJETOS COM VIBE DOS ANOS 80
+            COISAS QUE EU FIZ
           </h2>
           <p className="text-slate-300 text-sm md:text-base mt-2 font-normal">
-            Escolha uma fita no deck abaixo para conferir o projeto rodando na Vercel ou inspecionar o código-fonte no GitHub.
+            Quatro projetos pessoais, todos rodando agora. Escolha uma fita no deck para jogar, ler ou abrir o código.
           </p>
         </div>
 
