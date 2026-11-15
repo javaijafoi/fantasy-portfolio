@@ -110,4 +110,20 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     icon: "✋",
     rating: "HANDS ON",
   },
+  {
+    id: "ihunt-chronicle",
+    tag: "TRACK 07 // EM PAUSA",
+    title: "#iHunt Chronicle",
+    tagline: "Uma mesa virtual para o RPG #iHunt, feita por fã",
+    description:
+      "Mesa virtual para jogar #iHunt (sistema Fate) online: campanhas com código de convite, cenas com tokens e NPCs em tempo real, criador de caçadores e um gerador público de fichas de monstros. Está no ar e funcionando, mas em pausa por enquanto.",
+    techStack: ["React", "TypeScript", "Firebase", "Fate"],
+    gradient: "from-red-600 via-rose-800 to-zinc-950",
+    accentColor: "#ef4444",
+    badgeColor: "bg-red-500/20 text-red-300 border-red-500/40",
+    vercelUrl: "https://ihunt-chronicle.vercel.app",
+    githubUrl: "https://github.com/javaijafoi/ihunt-chronicle",
+    icon: "🩸",
+    rating: "ON HOLD",
+  },
 ];

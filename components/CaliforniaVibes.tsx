@@ -123,7 +123,7 @@ export default function CaliforniaVibes() {
             COISAS QUE EU FIZ
           </h2>
           <p className="text-slate-300 text-sm md:text-base mt-2 font-normal">
-            Seis projetos pessoais, todos rodando agora. Escolha uma fita no deck para jogar, ler ou abrir o código.
+            Projetos pessoais, todos rodando agora. Escolha uma fita no deck para jogar, ler ou abrir o código.
           </p>
         </div>
 
