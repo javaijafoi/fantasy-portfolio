@@ -126,4 +126,20 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     icon: "🩸",
     rating: "ON HOLD",
   },
+  {
+    id: "rolador",
+    tag: "TRACK 08 // TABLETOP",
+    title: "Rolador",
+    tagline: "Dados para qualquer RPG de mesa, com cara de PICO-8",
+    description:
+      "Um rolador com cartuchos para doze sistemas: D&D e Tormenta, Fate, Vampiro V5, Storyteller, Cthulhu, Shadowrun, Savage Worlds, Blades, Daggerheart, GURPS e mais. Cada um aplica as regras certas, como vantagem, dados de Fome e explosão, e a notação livre aceita 4d6kh3 ou 8d10>=7. O histórico fica só no seu navegador.",
+    techStack: ["React", "TypeScript", "Vite", "WebAudio"],
+    gradient: "from-fuchsia-500 via-red-600 to-indigo-900",
+    accentColor: "#ff004d",
+    badgeColor: "bg-red-500/20 text-red-300 border-red-500/40",
+    vercelUrl: "https://rolador-nine.vercel.app",
+    githubUrl: "https://github.com/javaijafoi/rolador",
+    icon: "🎲",
+    rating: "ROLL INITIATIVE",
+  },
 ];
