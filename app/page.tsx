@@ -1,5 +1,5 @@
-import RomLoader from "@/components/RomLoader";
+import CaliforniaVibes from "@/components/CaliforniaVibes";
 
 export default function Home() {
-  return <RomLoader />;
+  return <CaliforniaVibes />;
 }

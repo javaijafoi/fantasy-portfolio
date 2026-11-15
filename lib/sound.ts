@@ -1,5 +1,5 @@
-// Web Audio API 8-Bit Retro Sound Generator for ROM Loader
-class SoundManager {
+// 80s Synth Audio Generator
+class SynthWaveAudio {
   private ctx: AudioContext | null = null;
   public enabled: boolean = true;
 
@@ -22,63 +22,70 @@ class SoundManager {
   public toggleMute(): boolean {
     this.enabled = !this.enabled;
     if (this.enabled) {
-      this.playCursor();
+      this.playSynthNote(523.25); // C5
     }
     return this.enabled;
   }
 
-  // Crisp navigation cursor blip
-  public playCursor() {
-    if (!this.enabled) return;
-    const ctx = this.initCtx();
-    if (!ctx) return;
-
-    try {
-      const osc = ctx.createOscillator();
-      const gain = ctx.createGain();
-
-      osc.type = "square";
-      osc.frequency.setValueAtTime(440, ctx.currentTime);
-      osc.frequency.setValueAtTime(880, ctx.currentTime + 0.02);
-
-      gain.gain.setValueAtTime(0.06, ctx.currentTime);
-      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.04);
-
-      osc.connect(gain);
-      gain.connect(ctx.destination);
-
-      osc.start();
-      osc.stop(ctx.currentTime + 0.04);
-    } catch {
-      // Audio fallback
-    }
-  }
-
-  // Boot / Launch ROM arpeggio
-  public playBoot() {
+  // Smooth synth chord note (80s FM synth feel)
+  public playSynthNote(freq: number = 440) {
     if (!this.enabled) return;
     const ctx = this.initCtx();
     if (!ctx) return;
 
     try {
       const now = ctx.currentTime;
-      const freqs = [330, 440, 554, 659, 880];
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
 
-      freqs.forEach((f, idx) => {
+      osc.type = "sawtooth";
+      osc.frequency.setValueAtTime(freq, now);
+
+      // Low pass filter for warm 80s brass/lead synth warmth
+      const filter = ctx.createBiquadFilter();
+      filter.type = "lowpass";
+      filter.frequency.setValueAtTime(1400, now);
+      filter.frequency.exponentialRampToValueAtTime(400, now + 0.25);
+
+      gain.gain.setValueAtTime(0.08, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.25);
+
+      osc.connect(filter);
+      filter.connect(gain);
+      gain.connect(ctx.destination);
+
+      osc.start(now);
+      osc.stop(now + 0.25);
+    } catch {
+      // Audio fallback
+    }
+  }
+
+  // 80s California arcade chime
+  public playLaunchChord() {
+    if (!this.enabled) return;
+    const ctx = this.initCtx();
+    if (!ctx) return;
+
+    try {
+      const now = ctx.currentTime;
+      const notes = [293.66, 369.99, 440.0, 587.33]; // D, F#, A, D (bright major synth)
+
+      notes.forEach((f, idx) => {
         const osc = ctx.createOscillator();
         const gain = ctx.createGain();
 
         osc.type = "triangle";
-        osc.frequency.setValueAtTime(f, now + idx * 0.05);
+        osc.frequency.setValueAtTime(f, now + idx * 0.04);
 
-        gain.gain.setValueAtTime(0.09, now + idx * 0.05);
-        gain.gain.exponentialRampToValueAtTime(0.001, now + idx * 0.05 + 0.12);
+        gain.gain.setValueAtTime(0.09, now + idx * 0.04);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + idx * 0.04 + 0.35);
 
         osc.connect(gain);
         gain.connect(ctx.destination);
 
-        osc.start(now + idx * 0.05);
-        osc.stop(now + idx * 0.05 + 0.12);
+        osc.start(now + idx * 0.04);
+        osc.stop(now + idx * 0.04 + 0.35);
       });
     } catch {
       // Audio fallback
@@ -86,4 +93,4 @@ class SoundManager {
   }
 }
 
-export const sound = new SoundManager();
+export const sound = new SynthWaveAudio();

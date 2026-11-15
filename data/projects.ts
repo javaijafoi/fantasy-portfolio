@@ -1,149 +1,81 @@
-export interface RomProject {
+export interface ProjectCard {
   id: string;
-  romName: string;
+  tag: string;
   title: string;
-  subtitle: string;
-  genre: string;
-  year: string;
-  system: string;
-  developer: string;
+  tagline: string;
   description: string;
-  specs: { label: string; value: string }[];
+  techStack: string[];
+  gradient: string;
+  accentColor: string;
+  badgeColor: string;
   vercelUrl: string;
   githubUrl?: string;
-  fileSize: string;
-  status: "ONLINE" | "STABLE";
-  boxColor: string;
-  accentColor: string;
   icon: string;
-  previewArt: string; // ASCII / Pixel Art or visual banner
+  rating: string;
 }
 
-export const ROM_LIST: RomProject[] = [
+export const CALIFORNIA_PROJECTS: ProjectCard[] = [
   {
     id: "antigravitus",
-    romName: "ANTIGRAVITUS.ROM",
+    tag: "TRACK 01 // AI OVERDRIVE",
     title: "Antigravitus",
-    subtitle: "Oráculo & Orquestrador de Agentes Autônomos",
-    genre: "AI / Automation Engine",
-    year: "2024",
-    system: "NEXT-GEN VERCEL EDGE",
-    developer: "Peter (@javaijafoi)",
+    tagline: "Agentes Autônomos & Orquestração em Gravidade Zero",
     description:
-      "Plataforma inteligente para orquestração e execução de comandos com agentes de inteligência artificial. Conecta prompts avançados a fluxos de trabalho autônomos na nuvem.",
-    specs: [
-      { label: "Core Tech", value: "Next.js / TypeScript" },
-      { label: "AI Engine", value: "Autonomous Agents" },
-      { label: "Hosting", value: "Vercel Edge Network" },
-      { label: "License", value: "Open Source" },
-    ],
+      "Plataforma inteligente que conecta comandos e prompts a agentes de inteligência artificial autônomos. Construído para rodar em alta performance na Edge com respostas ultrarrápidas.",
+    techStack: ["Next.js", "AI Agents", "TypeScript", "Vercel Edge"],
+    gradient: "from-pink-500 via-purple-600 to-indigo-800",
+    accentColor: "#ff2a85",
+    badgeColor: "bg-pink-500/20 text-pink-300 border-pink-500/40",
     vercelUrl: "https://antigravitus.vercel.app",
     githubUrl: "https://github.com/javaijafoi/antigravitus",
-    fileSize: "16.4 MB",
-    status: "ONLINE",
-    boxColor: "from-indigo-600 to-purple-800",
-    accentColor: "#818cf8",
     icon: "⚡",
-    previewArt: `
-  ▲  [ANTIGRAVITUS-CORE]
- / \\  AI AGENT RUNTIME
-/___\\ STATUS: OPTIMAL
- [⚡] ZERO-G AUTOMATION
-    `,
+    rating: "AI POWERED",
   },
   {
     id: "picotron-arena",
-    romName: "PICOTRON_ARENA.ROM",
+    tag: "TRACK 02 // 16-BIT ARCADE",
     title: "Picotron Arena",
-    subtitle: "Arena Arcade no Micro-Computador Retrô",
-    genre: "Arcade / GameDev",
-    year: "2024",
-    system: "PICOTRON 16-BIT CONSOLE",
-    developer: "Peter (@javaijafoi)",
+    tagline: "Arena de Jogos Retrô no Micro-Computador Vintage",
     description:
-      "Experiência arcade e laboratório de jogos desenvolvidos para o ecossistema do micro-computador Picotron. Combina estética pixel art vintage com game loops otimizados no navegador.",
-    specs: [
-      { label: "Engine", value: "Picotron / Pico-8" },
-      { label: "Language", value: "Lua / JavaScript" },
-      { label: "Graphics", value: "16-Color Palette / 60 FPS" },
-      { label: "Audio", value: "Chiptune Synthesizer" },
-    ],
+      "Laboratório de jogos e experimentação lúdica no ecossistema Picotron. Traz a essência das máquinas de fliperama dos anos 80 direto para o navegador com 60 FPS e sons chiptune.",
+    techStack: ["Picotron", "Pico-8", "Lua / JavaScript", "GameDev"],
+    gradient: "from-cyan-400 via-blue-600 to-indigo-900",
+    accentColor: "#00f0ff",
+    badgeColor: "bg-cyan-500/20 text-cyan-300 border-cyan-500/40",
     vercelUrl: "https://picotron-arena.vercel.app",
     githubUrl: "https://github.com/javaijafoi/picotron-arcade",
-    fileSize: "4.2 MB",
-    status: "ONLINE",
-    boxColor: "from-emerald-600 to-teal-800",
-    accentColor: "#34d399",
     icon: "🕹️",
-    previewArt: `
-+-----------------------+
-|  [>] PICOTRON ARCADE  |
-|  * * SCORE: 999990 *  |
-|      ( o . o )        |
-|  INSERT COIN TO PLAY  |
-+-----------------------+
-    `,
+    rating: "ARCADE HIT",
   },
   {
     id: "jogo-davi",
-    romName: "JOGO_DAVI.ROM",
+    tag: "TRACK 03 // SUNNY ADVENTURE",
     title: "Jogo do Davi",
-    subtitle: "Aventura Interativa & Desafios Lúdicos",
-    genre: "Kids / Educational Adventure",
-    year: "2024",
-    system: "HTML5 CANVAS V2",
-    developer: "Peter (@javaijafoi)",
+    tagline: "Aventura Interativa, Cores Vibrantes & Gamificação",
     description:
-      "Jogo interativo repleto de animações, dinâmicas de raciocínio e fases customizadas, criado para encantar e desafiar jovens jogadores através do navegador.",
-    specs: [
-      { label: "Frontend", value: "React / HTML5 Canvas" },
-      { label: "Target", value: "Mobile & Desktop Web" },
-      { label: "Audio", value: "Efeitos Sonoros Lúdicos" },
-      { label: "Build", value: "Vercel Optimized" },
-    ],
+      "Uma jornada colorida e animada repleta de desafios de lógica e reflexos. Desenvolvido com HTML5 Canvas e animações fluidas para jovens aventureiros.",
+    techStack: ["React", "HTML5 Canvas", "Tailwind CSS", "Interactive UI"],
+    gradient: "from-amber-400 via-orange-500 to-pink-600",
+    accentColor: "#ffde59",
+    badgeColor: "bg-amber-500/20 text-amber-300 border-amber-500/40",
     vercelUrl: "https://jogo-davi.vercel.app",
     githubUrl: "https://github.com/javaijafoi/Jogo-davi",
-    fileSize: "8.1 MB",
-    status: "ONLINE",
-    boxColor: "from-amber-600 to-orange-800",
-    accentColor: "#fbbf24",
-    icon: "🌟",
-    previewArt: `
-  ★ JOGO DO DAVI ★
- [====================]
-   \\(^_^) /  CAMPIONE!
-  [ FASE 1: AVENTURA ]
-    `,
+    icon: "🌴",
+    rating: "ALL AGES",
   },
   {
     id: "matusalem",
-    romName: "MATUSALEM.ROM",
+    tag: "TRACK 04 // CHRONOS WARP",
     title: "Matusalém",
-    subtitle: "Oráculo Algorítmico de Longevidade & Tempo",
-    genre: "Utility / Time Calculator",
-    year: "2024",
-    system: "WEB UTILITY RUNTIME",
-    developer: "Peter (@javaijafoi)",
+    tagline: "Calculadora de Longevidade & Viagem no Tempo",
     description:
-      "Calculadora temporal algorítmica desenhada para estimar ciclos de longevidade, passagens de era e métricas cronológicas com alta precisão.",
-    specs: [
-      { label: "Type", value: "Mathematical Tool" },
-      { label: "Core", value: "JavaScript / Algoritmos" },
-      { label: "Deployment", value: "Vercel Serverless" },
-      { label: "Speed", value: "Instant Execution" },
-    ],
+      "Ferramenta matemática e algorítmica para cálculos cronológicos e estimativas de longevidade temporal. Execução instantânea e sem engasgos.",
+    techStack: ["JavaScript", "Time Algorithms", "Serverless", "Math Engine"],
+    gradient: "from-fuchsia-500 via-purple-600 to-slate-900",
+    accentColor: "#d946ef",
+    badgeColor: "bg-purple-500/20 text-purple-300 border-purple-500/40",
     vercelUrl: "https://matusalem-six.vercel.app",
-    fileSize: "2.8 MB",
-    status: "ONLINE",
-    boxColor: "from-blue-600 to-cyan-800",
-    accentColor: "#38bdf8",
     icon: "⏳",
-    previewArt: `
-   .---.     MATUSALEM
-  /     \\    CHRONOS ENGINE
- | TIME  |   YEARS: 969
-  \\     /    [=== 100% ===]
-   '---'
-    `,
+    rating: "CHRONO TECH",
   },
 ];

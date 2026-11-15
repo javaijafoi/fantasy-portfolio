@@ -1,73 +1,70 @@
 @import "tailwindcss";
 
 @theme {
-  --font-pixel: var(--font-pixel), monospace;
-  --font-mono-clean: var(--font-mono-clean), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-retro: var(--font-righteous), cursive, sans-serif;
+  --font-sans: var(--font-body), sans-serif;
 }
 
 :root {
-  --arcade-bg: #0b0d13;
-  --arcade-panel: #121620;
-  --arcade-border: #263045;
-  --arcade-accent: #38bdf8;
-  --arcade-amber: #f59e0b;
+  --neon-pink: #ff2a85;
+  --neon-cyan: #00f0ff;
+  --neon-yellow: #ffde59;
+  --neon-purple: #9d4edd;
 }
 
 body {
-  font-family: var(--font-mono-clean), ui-monospace, monospace;
-  background-color: var(--arcade-bg);
+  font-family: var(--font-body), sans-serif;
 }
 
-.font-pixel {
-  font-family: var(--font-pixel), monospace;
+.font-retro {
+  font-family: var(--font-righteous), cursive, sans-serif;
 }
 
-.font-mono-clean {
-  font-family: var(--font-mono-clean), ui-monospace, monospace;
+/* 80s California Sunset Grid Background */
+.california-bg {
+  background: 
+    radial-gradient(circle at 50% 15%, rgba(255, 42, 133, 0.25) 0%, rgba(157, 78, 221, 0.15) 35%, transparent 70%),
+    linear-gradient(180deg, #0e0720 0%, #170936 45%, #2a0845 75%, #120422 100%);
+  background-attachment: fixed;
 }
 
-/* Subtle CRT Scanlines */
-.crt-overlay {
-  background: linear-gradient(
-    rgba(18, 16, 16, 0) 50%, 
-    rgba(0, 0, 0, 0.25) 50%
-  ), linear-gradient(
-    90deg,
-    rgba(255, 0, 0, 0.03),
-    rgba(0, 255, 0, 0.01),
-    rgba(0, 0, 255, 0.03)
-  );
-  background-size: 100% 3px, 6px 100%;
-  pointer-events: none;
+/* Synthwave Sunset Horizon lines */
+.synth-horizon {
+  background-image: 
+    linear-gradient(rgba(0, 240, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 42, 133, 0.06) 1px, transparent 1px);
+  background-size: 40px 40px;
 }
 
-/* ROM Loader Box Borders */
-.rom-panel {
-  background-color: #11151f;
-  border: 2px solid #232c3d;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05), 0 8px 24px rgba(0, 0, 0, 0.5);
+/* Neon Glows */
+.neon-glow-pink {
+  box-shadow: 0 0 25px rgba(255, 42, 133, 0.35);
 }
 
-.rom-selected {
-  background: linear-gradient(90deg, rgba(56, 189, 248, 0.2) 0%, rgba(56, 189, 248, 0.05) 100%);
-  border-left: 4px solid #38bdf8;
+.neon-glow-cyan {
+  box-shadow: 0 0 25px rgba(0, 240, 255, 0.35);
 }
 
-/* Custom Scrollbars */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+.neon-text-pink {
+  text-shadow: 0 0 10px rgba(255, 42, 133, 0.6), 0 0 20px rgba(255, 42, 133, 0.3);
 }
 
-::-webkit-scrollbar-track {
-  background: #0b0d13;
+.neon-text-cyan {
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.6), 0 0 20px rgba(0, 240, 255, 0.3);
 }
 
-::-webkit-scrollbar-thumb {
-  background: #232c3d;
-  border-radius: 2px;
+.neon-text-yellow {
+  text-shadow: 0 0 10px rgba(255, 222, 89, 0.6), 0 0 20px rgba(255, 222, 89, 0.3);
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #3b4861;
+/* Glassmorphism Card */
+.glass-card {
+  background: rgba(26, 16, 48, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+.glass-card:hover {
+  border-color: rgba(255, 42, 133, 0.4);
 }
