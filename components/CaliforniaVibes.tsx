@@ -117,18 +117,18 @@ export default function CaliforniaVibes() {
         {/* Hero Tagline */}
         <div className="text-center max-w-2xl mx-auto mb-8">
           <span className="inline-block px-3 py-1 rounded-full bg-pink-500/20 border border-pink-500/30 text-pink-300 font-retro text-xs tracking-widest uppercase mb-3 neon-glow-pink">
-            ★ SELECT YOUR TRACK // 4 PROJETOS NO AR ★
+            ★ SELECT YOUR TRACK // {CALIFORNIA_PROJECTS.length} PROJETOS NO AR ★
           </span>
           <h2 className="font-retro text-3xl md:text-5xl text-white tracking-wide">
             COISAS QUE EU FIZ
           </h2>
           <p className="text-slate-300 text-sm md:text-base mt-2 font-normal">
-            Quatro projetos pessoais, todos rodando agora. Escolha uma fita no deck para jogar, ler ou abrir o código.
+            Seis projetos pessoais, todos rodando agora. Escolha uma fita no deck para jogar, ler ou abrir o código.
           </p>
         </div>
 
-        {/* 4 Interactive Fluid Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        {/* Interactive Fluid Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {CALIFORNIA_PROJECTS.map((proj, idx) => {
             const isSelected = proj.id === selectedId;
             return (
