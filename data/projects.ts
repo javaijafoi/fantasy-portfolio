@@ -137,7 +137,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     gradient: "from-fuchsia-500 via-red-600 to-indigo-900",
     accentColor: "#ff004d",
     badgeColor: "bg-red-500/20 text-red-300 border-red-500/40",
-    vercelUrl: "https://rolador-nine.vercel.app",
+    vercelUrl: "https://rolador-javaijafoi.vercel.app",
     githubUrl: "https://github.com/javaijafoi/rolador",
     icon: "🎲",
     rating: "ROLL INITIATIVE",
