@@ -2,7 +2,7 @@
 
 Portfólio interativo retrô inspirado na estética dos anos 80, synthwave e arcades da Califórnia.
 
-**Demo Online:** [https://fantasy-portfolio-zeta.vercel.app](https://fantasy-portfolio-zeta.vercel.app)
+**Demo Online:** [https://javaijafoi.vercel.app](https://javaijafoi.vercel.app)
 
 ---
 
