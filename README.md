@@ -35,6 +35,7 @@ Uma vitrine interativa com estética de anos 80, synthwave e arcade. Cada projet
 | 06 | [**Pinta-Kara**](https://pinta-kara.vercel.app) | Desenhe no ar com as mãos, usando só a webcam | [repo](https://github.com/javaijafoi/pinta-kara) |
 | 07 | **#iHunt Chronicle** | Mesa virtual para o RPG #iHunt (em pausa) | — |
 | 08 | [**Rolador**](https://rolador-nine.vercel.app) | Dados para qualquer RPG de mesa, com cara de PICO-8 | [repo](https://github.com/javaijafoi/rolador) |
+| 09 | [**Pico Poetry**](https://pico-poetry.vercel.app) | Petiscos de poesia em pixel: sorteie, escolha as cores e compartilhe | [repo](https://github.com/javaijafoi/pico-poetry) |
 
 Outros projetos que moram aqui no GitHub: [iFone](https://github.com/javaijafoi/ifone), o celular de mentira para mesas de #iHunt.
 
