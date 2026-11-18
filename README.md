@@ -1,40 +1,62 @@
-# 🌴 California Dreams '88 // Peter's Portfolio
+<div align="center">
 
-Portfólio interativo retrô inspirado na estética dos anos 80, synthwave e arcades da Califórnia.
+# 🌴 Portfólio do Peter
 
-**Demo Online:** [https://javaijafoi.vercel.app](https://javaijafoi.vercel.app)
+**Coisas que eu fiz e que estão no ar:** jogos, histórias interativas e experimentos com IA.
+Cada projeto é uma fita no deck: é só escolher e apertar play.
+
+[![Abrir o portfólio](https://img.shields.io/badge/%E2%96%B6%20abrir%20o%20portf%C3%B3lio-fantasy--portfolio--zeta.vercel.app-ff2e88?style=for-the-badge)](https://fantasy-portfolio-zeta.vercel.app)
+
+![Next.js](https://img.shields.io/badge/Next.js-16-000?style=flat-square&logo=nextdotjs)
+![React](https://img.shields.io/badge/React-19-61dafb?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-4-38bdf8?style=flat-square&logo=tailwindcss&logoColor=white)
+![Vercel](https://img.shields.io/badge/deploy-Vercel-000?style=flat-square&logo=vercel)
+
+<img src="docs/img/home.jpg" alt="Página inicial do portfólio, com estética de fita cassete e synthwave" width="820">
+
+</div>
+
+## 🕹️ O que tem lá
+
+Uma vitrine interativa com estética de anos 80, synthwave e arcade. Cada projeto vira um cartão com chamada, descrição, tecnologias, botão de demo e link para o código.
+
+<div align="center">
+<img src="docs/img/projetos.jpg" alt="Cartões dos projetos: Matusalém, Era Vargas, Pinta-Kara, iHunt Chronicle e Rolador" width="820">
+</div>
+
+| Fita | Projeto | O que é | Código |
+| --- | --- | --- | --- |
+| 01 | [**Antigravitus**](https://antigravitus.vercel.app) | Diário de aventuras num RPG de texto, jogado por agentes de IA | [repo](https://github.com/javaijafoi/antigravitus) |
+| 02 | [**Picotron Arena**](https://picotron-arena.vercel.app) | Dez modos de arcade caóticos num computador de fantasia | [repo](https://github.com/javaijafoi/picotron-arcade) |
+| 03 | [**Jogo do Davi**](https://jogo-davi.vercel.app) | Jogo para crianças aprenderem a ler e a contar | [repo](https://github.com/javaijafoi/Jogo-davi) |
+| 04 | [**Matusalém**](https://matusalem-six.vercel.app) | História interativa de mistério no Bixiga | — |
+| 05 | [**Era Vargas: O Equilibrista**](https://era-vargas-seliga.vercel.app) | Jogo 3D de decisões sobre o Brasil de 1930 a 1945 | [repo](https://github.com/javaijafoi/era-vargas-seliga) |
+| 06 | [**Pinta-Kara**](https://pinta-kara.vercel.app) | Desenhe no ar com as mãos, usando só a webcam | [repo](https://github.com/javaijafoi/pinta-kara) |
+| 07 | **#iHunt Chronicle** | Mesa virtual para o RPG #iHunt (em pausa) | — |
+| 08 | [**Rolador**](https://rolador-nine.vercel.app) | Dados para qualquer RPG de mesa, com cara de PICO-8 | [repo](https://github.com/javaijafoi/rolador) |
+
+Outros projetos que moram aqui no GitHub: [iFone](https://github.com/javaijafoi/ifone), o celular de mentira para mesas de #iHunt.
+
+## 🚀 Rodando localmente
+
+```bash
+npm install
+npm run dev      # http://localhost:3000
+npm run build    # build de produção
+npm run lint
+```
+
+O conteúdo dos cartões fica em `data/projects.ts`, e os textos da interface em `components/`. Para adicionar um projeto, basta incluir um item novo na lista.
+
+## 🧱 Tecnologias
+
+- **Framework:** Next.js 16 (App Router) e React 19
+- **Estilo:** Tailwind CSS v4, glassmorphism e efeitos neon
+- **Tipografia:** Google Fonts (`Righteous` e `Space Grotesk`)
+- **Áudio:** síntese FM de anos 80 com a Web Audio API
+- **Deploy:** Vercel
 
 ---
 
-## 🕹️ Projetos em Destaque
-
-1. **⚡ Antigravitus** (`Track 01 // Roleplay Log`)  
-   * Diário de aventuras num RPG de texto (Devil's Bob MUD), jogado por agentes de IA em rotinas supervisionadas e contado em crônicas.  
-   * *Stack:* Python, Agentes de IA, HTML/CSS/JS, MUD  
-   * [Live Demo](https://antigravitus.vercel.app) • [GitHub](https://github.com/javaijafoi/antigravitus)
-
-2. **🕹️ Picotron Arena** (`Track 02 // Arcade`)  
-   * Dez modos de arcade caóticos numa estação retrô inspirada no Picotron, num único arquivo HTML, para PC e celular.  
-   * *Stack:* JavaScript, Canvas, HTML único, localStorage  
-   * [Live Demo](https://picotron-arena.vercel.app) • [GitHub](https://github.com/javaijafoi/picotron-arcade)
-
-3. **🌴 Jogo do Davi** (`Track 03 // Alfabetização`)  
-   * Jogo para crianças aprenderem a ler e a contar, com sessões curtas, erro sem punição e revisão do que ficou difícil.  
-   * *Stack:* React, TypeScript, Vite  
-   * [Live Demo](https://jogo-davi.vercel.app) • [GitHub](https://github.com/javaijafoi/Jogo-davi)
-
-4. **⏳ Matusalém** (`Track 04 // Noir Paulistano`)  
-   * História interativa de mistério no Bixiga, em que cada escolha muda a investigação.  
-   * *Stack:* ink, inkjs, JavaScript  
-   * [Live Demo](https://matusalem-six.vercel.app)
-
----
-
-## 🛠️ Stack Tecnológica
-
-* **Framework:** Next.js 16 (App Router)
-* **Estilização:** Tailwind CSS v4 + Glassmorphism + Efeitos Neon
-* **Tipografia:** Google Fonts (`Righteous` & `Space Grotesk`)
-* **Áudio:** Síntese FM nativa dos anos 80 via Web Audio API
-* **Deploy:** Vercel Edge Network
-* **Autor:** Peter ([@javaijafoi](https://github.com/javaijafoi))
+Feito por Peter ([@javaijafoi](https://github.com/javaijafoi)).
