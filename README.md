@@ -5,7 +5,7 @@
 **Coisas que eu fiz e que estão no ar:** jogos, histórias interativas e experimentos com IA.
 Cada projeto é uma fita no deck: é só escolher e apertar play.
 
-[![Abrir o portfólio](https://img.shields.io/badge/%E2%96%B6%20abrir%20o%20portf%C3%B3lio-fantasy--portfolio--zeta.vercel.app-ff2e88?style=for-the-badge)](https://fantasy-portfolio-zeta.vercel.app)
+[![Abrir o portfólio](https://img.shields.io/badge/%E2%96%B6%20abrir%20o%20portf%C3%B3lio-fantasy--portfolio--zeta.vercel.app-ff2e88?style=for-the-badge)](https://javaijafoi.vercel.app)
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-000?style=flat-square&logo=nextdotjs)
 ![React](https://img.shields.io/badge/React-19-61dafb?style=flat-square&logo=react&logoColor=black)
@@ -34,10 +34,10 @@ Uma vitrine interativa com estética de anos 80, synthwave e arcade. Cada projet
 | 05 | [**Era Vargas: O Equilibrista**](https://era-vargas-seliga.vercel.app) | Jogo 3D de decisões sobre o Brasil de 1930 a 1945 | [repo](https://github.com/javaijafoi/era-vargas-seliga) |
 | 06 | [**Pinta-Kara**](https://pinta-kara.vercel.app) | Desenhe no ar com as mãos, usando só a webcam | [repo](https://github.com/javaijafoi/pinta-kara) |
 | 07 | **#iHunt Chronicle** | Mesa virtual para o RPG #iHunt (em pausa) | — |
-| 08 | [**Rolador**](https://rolador-nine.vercel.app) | Dados para qualquer RPG de mesa, com cara de PICO-8 | [repo](https://github.com/javaijafoi/rolador) |
+| 08 | [**Rolador**](https://rolador-javaijafoi.vercel.app) | Dados para qualquer RPG de mesa, com cara de PICO-8 | [repo](https://github.com/javaijafoi/rolador) |
 | 09 | [**Pico Poetry**](https://pico-poetry.vercel.app) | Petiscos de poesia em pixel: sorteie, escolha as cores e compartilhe | [repo](https://github.com/javaijafoi/pico-poetry) |
 
-Outros projetos que moram aqui no GitHub: [iFone](https://github.com/javaijafoi/ifone), o celular de mentira para mesas de #iHunt.
+Outros projetos públicos no GitHub: [iFone](https://github.com/javaijafoi/ifone) ([no ar](https://ifone-javaijafoi.vercel.app)), o celular de mentira para mesas de #iHunt, e o [iHunt App](https://github.com/javaijafoi/iHunt-app), um fork do Fari App para jogar Fate online. O perfil do autor é [@javaijafoi](https://github.com/javaijafoi), e cada um desses repositórios aponta de volta para este portfólio.
 
 ## 🚀 Rodando localmente
 
