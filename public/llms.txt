@@ -14,6 +14,7 @@ Peter é um desenvolvedor brasileiro que cria jogos no navegador, ficção inter
 - [Pinta-Kara](https://pinta-kara.vercel.app): Desenhe no ar com as mãos, usando só a webcam. Código: https://github.com/javaijafoi/pinta-kara
 - [#iHunt Chronicle](https://ihunt-chronicle.vercel.app): Uma mesa virtual completa para o RPG #iHunt, feita por fã.
 - [Rolador](https://rolador-javaijafoi.vercel.app): Dados para qualquer RPG de mesa, com cara de PICO-8. Código: https://github.com/javaijafoi/rolador
+- [Pico Poetry](https://pico-poetry.vercel.app): Petiscos de poesia em pixel: 98 poemas para sortear e compartilhar como imagem. Código: https://github.com/javaijafoi/pico-poetry
 
 ## Links
 
