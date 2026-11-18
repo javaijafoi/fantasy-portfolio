@@ -1,0 +1,22 @@
+# California Dreams '88 // Peter's Arcade
+
+> Portfólio do Peter (@javaijafoi): jogos, histórias interativas e experimentos com IA, todos no ar. Site em português do Brasil.
+
+Peter é um desenvolvedor brasileiro que cria jogos no navegador, ficção interativa, ferramentas para RPG de mesa e experimentos com agentes de IA. Cada projeto abaixo está publicado e pode ser aberto sem instalar nada.
+
+## Projetos
+
+- [Antigravitus](https://antigravitus.vercel.app): Um diário de aventuras num RPG de texto, jogado por agentes de IA. Código: https://github.com/javaijafoi/antigravitus
+- [Picotron Arena](https://picotron-arena.vercel.app): Dez modos de arcade caóticos dentro de um computador de fantasia. Código: https://github.com/javaijafoi/picotron-arcade
+- [Jogo do Davi](https://jogo-davi.vercel.app): Um jogo para crianças aprenderem a ler e a contar. Código: https://github.com/javaijafoi/Jogo-davi
+- [Matusalém](https://matusalem-six.vercel.app): Uma história interativa de mistério no Bixiga.
+- [Era Vargas: O Equilibrista](https://era-vargas-seliga.vercel.app): Um jogo 3D de decisões sobre o Brasil de 1930 a 1945. Código: https://github.com/javaijafoi/era-vargas-seliga
+- [Pinta-Kara](https://pinta-kara.vercel.app): Desenhe no ar com as mãos, usando só a webcam. Código: https://github.com/javaijafoi/pinta-kara
+- [#iHunt Chronicle](https://ihunt-chronicle.vercel.app): Uma mesa virtual completa para o RPG #iHunt, feita por fã.
+- [Rolador](https://rolador-javaijafoi.vercel.app): Dados para qualquer RPG de mesa, com cara de PICO-8. Código: https://github.com/javaijafoi/rolador
+
+## Links
+
+- [Portfólio](https://javaijafoi.vercel.app)
+- [GitHub do Peter](https://github.com/javaijafoi)
+- [Sitemap](https://javaijafoi.vercel.app/sitemap.xml)
