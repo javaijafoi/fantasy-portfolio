@@ -119,9 +119,10 @@ export default function CaliforniaVibes() {
           <span className="inline-block px-3 py-1 rounded-full bg-pink-500/20 border border-pink-500/30 text-pink-300 font-retro text-xs tracking-widest uppercase mb-3 neon-glow-pink">
             ★ SELECT YOUR TRACK // {CALIFORNIA_PROJECTS.length} PROJETOS NO AR ★
           </span>
-          <h2 className="font-retro text-3xl md:text-5xl text-white tracking-wide">
+          <h1 className="font-retro text-3xl md:text-5xl text-white tracking-wide">
             COISAS QUE EU FIZ
-          </h2>
+            <span className="sr-only"> | Peter (@javaijafoi): jogos, histórias interativas e experimentos com IA</span>
+          </h1>
           <p className="text-slate-300 text-sm md:text-base mt-2 font-normal">
             Projetos pessoais, todos rodando agora. Escolha uma fita no deck para jogar, ler ou abrir o código.
           </p>
