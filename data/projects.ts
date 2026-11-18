@@ -147,7 +147,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     title: "Pico Poetry",
     tagline: "Petiscos de poesia em pixel, prontos para compartilhar",
     description:
-      "98 poemas meus num site em estilo PICO-8. Ele abre numa poesia sorteada, tem índice com busca e transforma qualquer poema numa imagem pixelada com o endereço do site embaixo. Dá para trocar as cores do cartão antes de enviar. Sem cadastro e sem rastreamento.",
+      "96 poemas meus num site em estilo PICO-8. Ele abre numa poesia sorteada, tem índice com busca e transforma qualquer poema numa imagem pixelada com o endereço do site embaixo. Dá para trocar as cores do cartão antes de enviar. Sem cadastro e sem rastreamento.",
     techStack: ["HTML", "CSS", "JavaScript", "Canvas"],
     gradient: "from-pink-400 via-fuchsia-500 to-indigo-900",
     accentColor: "#ff77a8",
