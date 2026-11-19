@@ -15,6 +15,7 @@ Peter é um desenvolvedor brasileiro que cria jogos no navegador, ficção inter
 - [#iHunt Chronicle](https://ihunt-chronicle.vercel.app): Uma mesa virtual completa para o RPG #iHunt, feita por fã.
 - [Rolador](https://rolador-javaijafoi.vercel.app): Dados para qualquer RPG de mesa, com cara de PICO-8. Código: https://github.com/javaijafoi/rolador
 - [Pico Poetry](https://pico-poetry.vercel.app): Petiscos de poesia em pixel: 96 poemas para sortear e compartilhar como imagem. Código: https://github.com/javaijafoi/pico-poetry
+- [Arena de Arton](https://arena-de-arton.vercel.app): Simulador de combate tático por turnos de Tormenta 20 (homenagem de fã, não oficial). Código: https://github.com/javaijafoi/arena-de-arton
 
 ## Outros repositórios públicos
 
