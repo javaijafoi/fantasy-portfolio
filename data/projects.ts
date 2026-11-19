@@ -157,4 +157,20 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     icon: "🍬",
     rating: "SORTEIE UMA",
   },
+  {
+    id: "arena-de-arton",
+    tag: "TRACK 10 // TÁTICO",
+    title: "Arena de Arton",
+    tagline: "Simulador de combate tático por turnos de Tormenta 20",
+    description:
+      "Monte um grupo de até quatro heróis e suba uma escada de dez batalhas, do 1º ao 14º nível, numa grade de 16 por 12 quadrados. Tem magias até o 4º círculo, manobras, voo, flanco e inimigos controlados por IA, ou você joga com os dois lados. Roda no navegador, sem cadastro. Homenagem de fã, grátis e sem vínculo oficial com a Jambô.",
+    techStack: ["JavaScript", "HTML/CSS", "Motor de regras", "IA de combate"],
+    gradient: "from-amber-400 via-red-600 to-indigo-900",
+    accentColor: "#f5c542",
+    badgeColor: "bg-amber-500/20 text-amber-300 border-amber-500/40",
+    vercelUrl: "https://arena-de-arton.vercel.app",
+    githubUrl: "https://github.com/javaijafoi/arena-de-arton",
+    icon: "⚔️",
+    rating: "ROLL INITIATIVE",
+  },
 ];
