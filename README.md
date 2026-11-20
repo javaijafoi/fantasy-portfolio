@@ -27,7 +27,7 @@ Uma vitrine interativa com estética de anos 80, synthwave e arcade. Cada projet
 
 | Fita | Projeto | O que é | Código |
 | --- | --- | --- | --- |
-| 01 | [**Pico Multitool**](https://multitool.javaijafoi.dev) | 47 ferramentas que rodam no aparelho: remover fundo, vídeo, áudio, PDF, CPF, QR Code e mais | [repo](https://github.com/javaijafoi/pico-tools) |
+| 01 | [**Pico Multitool**](https://multitool.javaijafoi.dev) | 50 ferramentas que rodam no aparelho: remover fundo, vídeo, áudio, PDF, CPF, QR Code e mais | [repo](https://github.com/javaijafoi/pico-tools) |
 | 02 | [**Rolador**](https://rolador.javaijafoi.dev) | Dados para qualquer RPG de mesa, com cara de PICO-8 | [repo](https://github.com/javaijafoi/rolador) |
 | 03 | [**Matusalém**](https://matusalem.javaijafoi.dev) | História interativa de mistério no Bixiga | — |
 | 04 | [**Pico Poetry**](https://poesia.javaijafoi.dev) | Petiscos de poesia em pixel: sorteie, escolha as cores e compartilhe | [repo](https://github.com/javaijafoi/pico-poetry) |

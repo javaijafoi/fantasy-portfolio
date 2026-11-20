@@ -6,7 +6,7 @@ Peter é um desenvolvedor brasileiro que cria jogos no navegador, ficção inter
 
 ## Projetos
 
-- [Pico Multitool](https://multitool.javaijafoi.dev): 47 ferramentas grátis que rodam no navegador (remover fundo de imagem, vídeo, áudio, PDF, texto, CPF/CNPJ, QR Code, calculadoras). Código: https://github.com/javaijafoi/pico-tools
+- [Pico Multitool](https://multitool.javaijafoi.dev): 50 ferramentas grátis que rodam no navegador (remover fundo de imagem, vídeo, áudio, PDF, texto, CPF/CNPJ, QR Code, calculadoras). Código: https://github.com/javaijafoi/pico-tools
 - [Rolador](https://rolador.javaijafoi.dev): Dados para qualquer RPG de mesa, com cara de PICO-8. Código: https://github.com/javaijafoi/rolador
 - [Matusalém](https://matusalem.javaijafoi.dev): Uma história interativa de mistério no Bixiga.
 - [Pico Poetry](https://poesia.javaijafoi.dev): Petiscos de poesia em pixel: 98 poemas para sortear e compartilhar como imagem. Código: https://github.com/javaijafoi/pico-poetry
