@@ -14,7 +14,7 @@ Peter é um desenvolvedor brasileiro que cria jogos no navegador, ficção inter
 - [Pinta-Kara](https://pintakara.javaijafoi.dev): Desenhe no ar com as mãos, usando só a webcam. Código: https://github.com/javaijafoi/pinta-kara
 - [Era Vargas: O Equilibrista](https://equilibrista.javaijafoi.dev): Um jogo 3D de decisões sobre o Brasil de 1930 a 1945. Código: https://github.com/javaijafoi/era-vargas-seliga
 - [Picotron Arena](https://picotron.javaijafoi.dev): Dez modos de arcade caóticos dentro de um computador de fantasia. Código: https://github.com/javaijafoi/picotron-arcade
-- [Jogo do Davi](https://jogo.javaijafoi.dev): Um jogo para crianças aprenderem a ler e a contar. Código: https://github.com/javaijafoi/Jogo-davi
+- [Jogo do Davi](https://jogodavi.javaijafoi.dev): Um jogo para crianças aprenderem a ler e a contar. Código: https://github.com/javaijafoi/Jogo-davi
 - [Antigravitus](https://antigravitus.javaijafoi.dev): Um diário de aventuras num RPG de texto, jogado por agentes de IA. Código: https://github.com/javaijafoi/antigravitus
 - [#iHunt Chronicle](https://ihunt.javaijafoi.dev): Uma mesa virtual completa para o RPG #iHunt, feita por fã.
 
