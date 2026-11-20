@@ -1,25 +1,25 @@
 {
   "redirects": [
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "has": [
         {
           "type": "host",
           "value": "javaijafoi.vercel.app"
         }
       ],
-      "destination": "https://javaijafoi.dev/:path*",
+      "destination": "https://javaijafoi.dev/$1",
       "statusCode": 301
     },
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "has": [
         {
           "type": "host",
           "value": "fantasy-portfolio-zeta.vercel.app"
         }
       ],
-      "destination": "https://javaijafoi.dev/:path*",
+      "destination": "https://javaijafoi.dev/$1",
       "statusCode": 301
     }
   ]
