@@ -142,6 +142,22 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     rating: "ROLL INITIATIVE",
   },
   {
+    id: "pico-tools",
+    tag: "TRACK 11 // TOOLS",
+    title: "Pico Tools",
+    tagline: "41 ferramentas úteis que rodam no seu aparelho, em pixel",
+    description:
+      "Juntar, dividir, girar e comprimir PDF, converter e comprimir imagem, gerar CPF e CNPJ válidos para teste (inclusive o novo CNPJ alfanumérico), QR Code, contador de palavras, calculadoras e utilidades de desenvolvedor. Tudo roda no navegador, sem upload e sem cadastro, funciona offline no celular e no PC.",
+    techStack: ["JavaScript", "pdf-lib", "pdf.js", "PWA"],
+    gradient: "from-yellow-300 via-pink-500 to-indigo-900",
+    accentColor: "#ffec27",
+    badgeColor: "bg-yellow-500/20 text-yellow-200 border-yellow-500/40",
+    vercelUrl: "https://pico-tools-javaijafoi.vercel.app",
+    githubUrl: "https://github.com/javaijafoi/pico-tools",
+    icon: "🧰",
+    rating: "41 FERRAMENTAS",
+  },
+  {
     id: "pico-poetry",
     tag: "TRACK 09 // POETRY",
     title: "Pico Poetry",
