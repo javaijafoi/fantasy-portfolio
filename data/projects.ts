@@ -153,7 +153,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     gradient: "from-amber-400 via-orange-500 to-pink-600",
     accentColor: "#ffde59",
     badgeColor: "bg-amber-500/20 text-amber-300 border-amber-500/40",
-    vercelUrl: "https://jogo-davi.vercel.app",
+    vercelUrl: "https://jogo.javaijafoi.dev",
     githubUrl: "https://github.com/javaijafoi/Jogo-davi",
     icon: "🌴",
     rating: "ALL AGES",
