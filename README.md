@@ -37,6 +37,7 @@ Uma vitrine interativa com estética de anos 80, synthwave e arcade. Cada projet
 | 08 | [**Rolador**](https://rolador-javaijafoi.vercel.app) | Dados para qualquer RPG de mesa, com cara de PICO-8 | [repo](https://github.com/javaijafoi/rolador) |
 | 09 | [**Pico Poetry**](https://pico-poetry.vercel.app) | Petiscos de poesia em pixel: sorteie, escolha as cores e compartilhe | [repo](https://github.com/javaijafoi/pico-poetry) |
 | 10 | [**Arena de Arton**](https://arena-de-arton.vercel.app) | Simulador de combate tático por turnos de Tormenta 20 (homenagem de fã) | [repo](https://github.com/javaijafoi/arena-de-arton) |
+| 11 | [**Pico Tools**](https://pico-tools-javaijafoi.vercel.app) | 41 ferramentas que rodam no aparelho: PDF, imagem, CPF, QR Code e mais | [repo](https://github.com/javaijafoi/pico-tools) |
 
 Outros projetos públicos no GitHub: [iFone](https://github.com/javaijafoi/ifone) ([no ar](https://ifone-javaijafoi.vercel.app)), o celular de mentira para mesas de #iHunt, e o [iHunt App](https://github.com/javaijafoi/iHunt-app), um fork do Fari App para jogar Fate online. O perfil do autor é [@javaijafoi](https://github.com/javaijafoi), e cada um desses repositórios aponta de volta para este portfólio.
 
