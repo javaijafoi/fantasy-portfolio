@@ -6,17 +6,17 @@ Peter é um desenvolvedor brasileiro que cria jogos no navegador, ficção inter
 
 ## Projetos
 
-- [Antigravitus](https://antigravitus.vercel.app): Um diário de aventuras num RPG de texto, jogado por agentes de IA. Código: https://github.com/javaijafoi/antigravitus
+- [Pico Multitool](https://pico-tools-javaijafoi.vercel.app): 41 ferramentas grátis que rodam no navegador (PDF, imagem, texto, CPF/CNPJ, QR Code, calculadoras). Código: https://github.com/javaijafoi/pico-tools
+- [Rolador](https://rolador-javaijafoi.vercel.app): Dados para qualquer RPG de mesa, com cara de PICO-8. Código: https://github.com/javaijafoi/rolador
+- [Matusalém](https://matusalem-six.vercel.app): Uma história interativa de mistério no Bixiga.
+- [Pico Poetry](https://pico-poetry.vercel.app): Petiscos de poesia em pixel: 98 poemas para sortear e compartilhar como imagem. Código: https://github.com/javaijafoi/pico-poetry
+- [Arena de Arton](https://arena-de-arton.vercel.app): Simulador de combate tático por turnos de Tormenta 20 (homenagem de fã, não oficial). Código: https://github.com/javaijafoi/arena-de-arton
+- [Pinta-Kara](https://pinta-kara.vercel.app): Desenhe no ar com as mãos, usando só a webcam. Código: https://github.com/javaijafoi/pinta-kara
+- [Era Vargas: O Equilibrista](https://era-vargas-seliga.vercel.app): Um jogo 3D de decisões sobre o Brasil de 1930 a 1945. Código: https://github.com/javaijafoi/era-vargas-seliga
 - [Picotron Arena](https://picotron-arena.vercel.app): Dez modos de arcade caóticos dentro de um computador de fantasia. Código: https://github.com/javaijafoi/picotron-arcade
 - [Jogo do Davi](https://jogo-davi.vercel.app): Um jogo para crianças aprenderem a ler e a contar. Código: https://github.com/javaijafoi/Jogo-davi
-- [Matusalém](https://matusalem-six.vercel.app): Uma história interativa de mistério no Bixiga.
-- [Era Vargas: O Equilibrista](https://era-vargas-seliga.vercel.app): Um jogo 3D de decisões sobre o Brasil de 1930 a 1945. Código: https://github.com/javaijafoi/era-vargas-seliga
-- [Pinta-Kara](https://pinta-kara.vercel.app): Desenhe no ar com as mãos, usando só a webcam. Código: https://github.com/javaijafoi/pinta-kara
+- [Antigravitus](https://antigravitus.vercel.app): Um diário de aventuras num RPG de texto, jogado por agentes de IA. Código: https://github.com/javaijafoi/antigravitus
 - [#iHunt Chronicle](https://ihunt-chronicle.vercel.app): Uma mesa virtual completa para o RPG #iHunt, feita por fã.
-- [Rolador](https://rolador-javaijafoi.vercel.app): Dados para qualquer RPG de mesa, com cara de PICO-8. Código: https://github.com/javaijafoi/rolador
-- [Pico Poetry](https://pico-poetry.vercel.app): Petiscos de poesia em pixel: 96 poemas para sortear e compartilhar como imagem. Código: https://github.com/javaijafoi/pico-poetry
-- [Arena de Arton](https://arena-de-arton.vercel.app): Simulador de combate tático por turnos de Tormenta 20 (homenagem de fã, não oficial). Código: https://github.com/javaijafoi/arena-de-arton
-- [Pico Tools](https://pico-tools-javaijafoi.vercel.app): 41 ferramentas grátis que rodam no navegador (PDF, imagem, texto, CPF/CNPJ, QR Code, calculadoras). Código: https://github.com/javaijafoi/pico-tools
 
 ## Outros repositórios públicos
 
