@@ -19,9 +19,9 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     id: "pico-multitool",
     tag: "TRACK 01 // TOOLS",
     title: "Pico Multitool",
-    tagline: "47 ferramentas úteis que rodam no seu aparelho, em pixel",
+    tagline: "50 ferramentas úteis que rodam no seu aparelho, em pixel",
     description:
-      "Remover fundo de foto com IA, comprimir e cortar vídeo, cortar áudio, vídeo para GIF, juntar e dividir PDF, comprimir imagem, gerar CPF e CNPJ válidos, QR Code e calculadoras. Tudo roda no navegador, sem upload e sem cadastro, e dá para pedir a próxima ferramenta num formulário.",
+      "Remover fundo de foto com IA, comprimir e cortar vídeo, OCR de imagem e PDF, recorte para redes sociais, juntar e dividir PDF, comprimir imagem, gerar CPF e CNPJ válidos, QR Code e calculadoras. Tudo roda no navegador, sem upload e sem cadastro, e dá para pedir a próxima ferramenta num formulário.",
     techStack: ["JavaScript", "ffmpeg.wasm", "pdf-lib", "PWA"],
     gradient: "from-yellow-300 via-pink-500 to-indigo-900",
     accentColor: "#ffec27",
@@ -29,7 +29,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     vercelUrl: "https://pico-tools-javaijafoi.vercel.app",
     githubUrl: "https://github.com/javaijafoi/pico-tools",
     icon: "🧰",
-    rating: "47 FERRAMENTAS",
+    rating: "50 FERRAMENTAS",
   },
   {
     id: "rolador",
