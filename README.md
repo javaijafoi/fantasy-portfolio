@@ -5,7 +5,7 @@
 **Coisas que eu fiz e que estão no ar:** jogos, histórias interativas e experimentos com IA.
 Cada projeto é uma fita no deck: é só escolher e apertar play.
 
-[![Abrir o portfólio](https://img.shields.io/badge/%E2%96%B6%20abrir%20o%20portf%C3%B3lio-fantasy--portfolio--zeta.vercel.app-ff2e88?style=for-the-badge)](https://javaijafoi.vercel.app)
+[![Abrir o portfólio](https://img.shields.io/badge/%E2%96%B6%20abrir%20o%20portf%C3%B3lio-javaijafoi.dev-ff2e88?style=for-the-badge)](https://javaijafoi.dev)
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-000?style=flat-square&logo=nextdotjs)
 ![React](https://img.shields.io/badge/React-19-61dafb?style=flat-square&logo=react&logoColor=black)
@@ -27,19 +27,19 @@ Uma vitrine interativa com estética de anos 80, synthwave e arcade. Cada projet
 
 | Fita | Projeto | O que é | Código |
 | --- | --- | --- | --- |
-| 01 | [**Pico Multitool**](https://pico-tools-javaijafoi.vercel.app) | 47 ferramentas que rodam no aparelho: remover fundo, vídeo, áudio, PDF, CPF, QR Code e mais | [repo](https://github.com/javaijafoi/pico-tools) |
-| 02 | [**Rolador**](https://rolador-javaijafoi.vercel.app) | Dados para qualquer RPG de mesa, com cara de PICO-8 | [repo](https://github.com/javaijafoi/rolador) |
-| 03 | [**Matusalém**](https://matusalem-six.vercel.app) | História interativa de mistério no Bixiga | — |
-| 04 | [**Pico Poetry**](https://pico-poetry.vercel.app) | Petiscos de poesia em pixel: sorteie, escolha as cores e compartilhe | [repo](https://github.com/javaijafoi/pico-poetry) |
-| 05 | [**Arena de Arton**](https://arena-de-arton.vercel.app) | Simulador de combate tático por turnos de Tormenta 20 (homenagem de fã) | [repo](https://github.com/javaijafoi/arena-de-arton) |
-| 06 | [**Pinta-Kara**](https://pinta-kara.vercel.app) | Desenhe no ar com as mãos, usando só a webcam | [repo](https://github.com/javaijafoi/pinta-kara) |
-| 07 | [**Era Vargas: O Equilibrista**](https://era-vargas-seliga.vercel.app) | Jogo 3D de decisões sobre o Brasil de 1930 a 1945 | [repo](https://github.com/javaijafoi/era-vargas-seliga) |
-| 08 | [**Picotron Arena**](https://picotron-arena.vercel.app) | Dez modos de arcade caóticos num computador de fantasia | [repo](https://github.com/javaijafoi/picotron-arcade) |
+| 01 | [**Pico Multitool**](https://multitool.javaijafoi.dev) | 47 ferramentas que rodam no aparelho: remover fundo, vídeo, áudio, PDF, CPF, QR Code e mais | [repo](https://github.com/javaijafoi/pico-tools) |
+| 02 | [**Rolador**](https://rolador.javaijafoi.dev) | Dados para qualquer RPG de mesa, com cara de PICO-8 | [repo](https://github.com/javaijafoi/rolador) |
+| 03 | [**Matusalém**](https://matusalem.javaijafoi.dev) | História interativa de mistério no Bixiga | — |
+| 04 | [**Pico Poetry**](https://poesia.javaijafoi.dev) | Petiscos de poesia em pixel: sorteie, escolha as cores e compartilhe | [repo](https://github.com/javaijafoi/pico-poetry) |
+| 05 | [**Arena de Arton**](https://arena.javaijafoi.dev) | Simulador de combate tático por turnos de Tormenta 20 (homenagem de fã) | [repo](https://github.com/javaijafoi/arena-de-arton) |
+| 06 | [**Pinta-Kara**](https://pintakara.javaijafoi.dev) | Desenhe no ar com as mãos, usando só a webcam | [repo](https://github.com/javaijafoi/pinta-kara) |
+| 07 | [**Era Vargas: O Equilibrista**](https://equilibrista.javaijafoi.dev) | Jogo 3D de decisões sobre o Brasil de 1930 a 1945 | [repo](https://github.com/javaijafoi/era-vargas-seliga) |
+| 08 | [**Picotron Arena**](https://picotron.javaijafoi.dev) | Dez modos de arcade caóticos num computador de fantasia | [repo](https://github.com/javaijafoi/picotron-arcade) |
 | 09 | [**Jogo do Davi**](https://jogo-davi.vercel.app) | Jogo para crianças aprenderem a ler e a contar | [repo](https://github.com/javaijafoi/Jogo-davi) |
-| 10 | [**Antigravitus**](https://antigravitus.vercel.app) | Diário de aventuras num RPG de texto, jogado por agentes de IA | [repo](https://github.com/javaijafoi/antigravitus) |
+| 10 | [**Antigravitus**](https://antigravitus.javaijafoi.dev) | Diário de aventuras num RPG de texto, jogado por agentes de IA | [repo](https://github.com/javaijafoi/antigravitus) |
 | 11 | **#iHunt Chronicle** | Mesa virtual para o RPG #iHunt (em pausa) | — |
 
-Outros projetos públicos no GitHub: [iFone](https://github.com/javaijafoi/ifone) ([no ar](https://ifone-javaijafoi.vercel.app)), o celular de mentira para mesas de #iHunt, e o [iHunt App](https://github.com/javaijafoi/iHunt-app), um fork do Fari App para jogar Fate online. O perfil do autor é [@javaijafoi](https://github.com/javaijafoi), e cada um desses repositórios aponta de volta para este portfólio.
+Outros projetos públicos no GitHub: [iFone](https://github.com/javaijafoi/ifone) ([no ar](https://ifone.javaijafoi.dev)), o celular de mentira para mesas de #iHunt, e o [iHunt App](https://github.com/javaijafoi/iHunt-app), um fork do Fari App para jogar Fate online. O perfil do autor é [@javaijafoi](https://github.com/javaijafoi), e cada um desses repositórios aponta de volta para este portfólio.
 
 ## 🚀 Rodando localmente
 
