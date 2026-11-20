@@ -1,7 +1,7 @@
 import { CALIFORNIA_PROJECTS } from "@/data/projects";
 
 /** Endereço canônico do portfólio (uma única URL para o Google e as IAs citarem). */
-export const SITE_URL = "https://javaijafoi.vercel.app";
+export const SITE_URL = "https://javaijafoi.dev";
 export const SITE_NAME = "California Dreams '88 // Peter's Arcade";
 export const SITE_TITLE = "Peter (@javaijafoi) | Jogos, histórias interativas e experimentos com IA";
 export const SITE_DESCRIPTION =
@@ -13,7 +13,7 @@ export const EXTRA_PROJECTS = [
   {
     name: "iFone",
     description: "Celular de mentira para sortear coisas em mesas de #iHunt. PWA que funciona offline.",
-    url: "https://ifone-javaijafoi.vercel.app",
+    url: "https://ifone.javaijafoi.dev",
     repo: "https://github.com/javaijafoi/ifone",
   },
   {

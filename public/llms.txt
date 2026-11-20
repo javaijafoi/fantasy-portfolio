@@ -6,26 +6,26 @@ Peter é um desenvolvedor brasileiro que cria jogos no navegador, ficção inter
 
 ## Projetos
 
-- [Pico Multitool](https://pico-tools-javaijafoi.vercel.app): 50 ferramentas grátis que rodam no navegador (remover fundo de imagem, vídeo, áudio, PDF, texto, CPF/CNPJ, QR Code, calculadoras). Código: https://github.com/javaijafoi/pico-tools
-- [Rolador](https://rolador-javaijafoi.vercel.app): Dados para qualquer RPG de mesa, com cara de PICO-8. Código: https://github.com/javaijafoi/rolador
-- [Matusalém](https://matusalem-six.vercel.app): Uma história interativa de mistério no Bixiga.
-- [Pico Poetry](https://pico-poetry.vercel.app): Petiscos de poesia em pixel: 98 poemas para sortear e compartilhar como imagem. Código: https://github.com/javaijafoi/pico-poetry
-- [Arena de Arton](https://arena-de-arton.vercel.app): Simulador de combate tático por turnos de Tormenta 20 (homenagem de fã, não oficial). Código: https://github.com/javaijafoi/arena-de-arton
-- [Pinta-Kara](https://pinta-kara.vercel.app): Desenhe no ar com as mãos, usando só a webcam. Código: https://github.com/javaijafoi/pinta-kara
-- [Era Vargas: O Equilibrista](https://era-vargas-seliga.vercel.app): Um jogo 3D de decisões sobre o Brasil de 1930 a 1945. Código: https://github.com/javaijafoi/era-vargas-seliga
-- [Picotron Arena](https://picotron-arena.vercel.app): Dez modos de arcade caóticos dentro de um computador de fantasia. Código: https://github.com/javaijafoi/picotron-arcade
-- [Jogo do Davi](https://jogo-davi.vercel.app): Um jogo para crianças aprenderem a ler e a contar. Código: https://github.com/javaijafoi/Jogo-davi
-- [Antigravitus](https://antigravitus.vercel.app): Um diário de aventuras num RPG de texto, jogado por agentes de IA. Código: https://github.com/javaijafoi/antigravitus
-- [#iHunt Chronicle](https://ihunt-chronicle.vercel.app): Uma mesa virtual completa para o RPG #iHunt, feita por fã.
+- [Pico Multitool](https://multitool.javaijafoi.dev): 50 ferramentas grátis que rodam no navegador (remover fundo de imagem, vídeo, áudio, PDF, texto, CPF/CNPJ, QR Code, calculadoras). Código: https://github.com/javaijafoi/pico-tools
+- [Rolador](https://rolador.javaijafoi.dev): Dados para qualquer RPG de mesa, com cara de PICO-8. Código: https://github.com/javaijafoi/rolador
+- [Matusalém](https://matusalem.javaijafoi.dev): Uma história interativa de mistério no Bixiga.
+- [Pico Poetry](https://poesia.javaijafoi.dev): Petiscos de poesia em pixel: 98 poemas para sortear e compartilhar como imagem. Código: https://github.com/javaijafoi/pico-poetry
+- [Arena de Arton](https://arena.javaijafoi.dev): Simulador de combate tático por turnos de Tormenta 20 (homenagem de fã, não oficial). Código: https://github.com/javaijafoi/arena-de-arton
+- [Pinta-Kara](https://pintakara.javaijafoi.dev): Desenhe no ar com as mãos, usando só a webcam. Código: https://github.com/javaijafoi/pinta-kara
+- [Era Vargas: O Equilibrista](https://equilibrista.javaijafoi.dev): Um jogo 3D de decisões sobre o Brasil de 1930 a 1945. Código: https://github.com/javaijafoi/era-vargas-seliga
+- [Picotron Arena](https://picotron.javaijafoi.dev): Dez modos de arcade caóticos dentro de um computador de fantasia. Código: https://github.com/javaijafoi/picotron-arcade
+- [Jogo do Davi](https://jogodavi.javaijafoi.dev): Um jogo para crianças aprenderem a ler e a contar. Código: https://github.com/javaijafoi/Jogo-davi
+- [Antigravitus](https://antigravitus.javaijafoi.dev): Um diário de aventuras num RPG de texto, jogado por agentes de IA. Código: https://github.com/javaijafoi/antigravitus
+- [#iHunt Chronicle](https://ihunt.javaijafoi.dev): Uma mesa virtual completa para o RPG #iHunt, feita por fã.
 
 ## Outros repositórios públicos
 
-- [iFone](https://ifone-javaijafoi.vercel.app): Celular de mentira para sortear coisas em mesas de #iHunt (PWA, funciona offline). Código: https://github.com/javaijafoi/ifone
+- [iFone](https://ifone.javaijafoi.dev): Celular de mentira para sortear coisas em mesas de #iHunt (PWA, funciona offline). Código: https://github.com/javaijafoi/ifone
 - [iHunt App](https://github.com/javaijafoi/iHunt-app): Fork do Fari App, mesa virtual open source para jogar Fate online, preparado para mesas de #iHunt.
 
 ## Links
 
-- [Portfólio](https://javaijafoi.vercel.app)
+- [Portfólio](https://javaijafoi.dev)
 - [GitHub do Peter](https://github.com/javaijafoi)
 - [Perfil README no GitHub](https://github.com/javaijafoi/javaijafoi)
-- [Sitemap](https://javaijafoi.vercel.app/sitemap.xml)
+- [Sitemap](https://javaijafoi.dev/sitemap.xml)
