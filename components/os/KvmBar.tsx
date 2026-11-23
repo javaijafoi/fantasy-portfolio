@@ -161,9 +161,9 @@ export default function KvmBar({
       >
         <div className="px-4 py-3 bg-[#1a1333] border-b border-white/15 flex items-center justify-between">
           <div>
-            <h1 id={titleId} className="text-sm font-mono font-bold text-yellow-300">
+            <h2 id={titleId} className="text-sm font-mono font-bold text-yellow-300">
               🖥️ BOOT MANAGER // FANTASY OS
-            </h1>
+            </h2>
             <p className="text-xs text-slate-300">
               Escolha o sistema operacional do portfólio
             </p>

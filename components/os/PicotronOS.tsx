@@ -108,9 +108,9 @@ export default function PicotronOS({
                         {ext}
                       </span>
                     </div>
-                    <h2 className="font-pixel text-xs text-[#fff1e8] leading-snug">
+                    <h3 className="font-pixel text-xs text-[#fff1e8] leading-snug">
                       {proj.title}
-                    </h2>
+                    </h3>
                   </div>
 
                   <div className="mt-2 pt-1.5 border-t border-black/60 flex items-center justify-between gap-1">
@@ -141,9 +141,9 @@ export default function PicotronOS({
                     extra.pod
                   </span>
                 </div>
-                <h2 className="font-pixel text-xs text-[#ffec27] leading-snug">
+                <h3 className="font-pixel text-xs text-[#ffec27] leading-snug">
                   EXTRA_CARTS
-                </h2>
+                </h3>
               </div>
 
               <div className="mt-2 pt-1.5 border-t border-black/60 flex flex-wrap gap-1.5">
@@ -219,10 +219,10 @@ export default function PicotronOS({
                       <span className="inline-block bg-[#29adff] text-black font-bold text-xs px-2 py-0.5 border border-black">
                         {selectedProject.tag}
                       </span>
-                      <h1 className="font-pixel text-xl text-[#ffec27] mt-2 flex items-center gap-2">
+                      <h2 className="font-pixel text-xl text-[#ffec27] mt-2 flex items-center gap-2">
                         <span>{selectedProject.icon}</span>
                         <span>{selectedProject.title}</span>
-                      </h1>
+                      </h2>
                     </div>
                     <span className="bg-black text-[#00e436] text-xs font-bold px-2 py-1 border border-[#00e436] shrink-0">
                       {selectedProject.rating}

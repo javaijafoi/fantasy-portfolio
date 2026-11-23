@@ -23,6 +23,7 @@ const righteous = Righteous({
   weight: "400",
   subsets: ["latin"],
   display: "swap",
+  preload: false,
   variable: "--font-righteous",
 });
 
@@ -36,6 +37,7 @@ const silkscreen = Silkscreen({
   weight: ["400", "700"],
   subsets: ["latin"],
   display: "swap",
+  preload: false,
   variable: "--font-pixel",
 });
 
@@ -43,6 +45,7 @@ const vt323 = VT323({
   weight: "400",
   subsets: ["latin"],
   display: "swap",
+  preload: false,
   variable: "--font-crt",
 });
 
@@ -50,6 +53,7 @@ const cinzel = Cinzel({
   weight: ["600", "700"],
   subsets: ["latin"],
   display: "swap",
+  preload: false,
   variable: "--font-arcane",
 });
 
@@ -57,6 +61,7 @@ const crimsonPro = Crimson_Pro({
   weight: ["400", "600"],
   subsets: ["latin"],
   display: "swap",
+  preload: false,
   variable: "--font-grimoire",
 });
 
@@ -106,17 +111,6 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
-    creator: "@javaijafoi",
-    site: "@javaijafoi",
-  },
-  icons: {
-    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🖥️</text></svg>",
-  },
-  other: {
-    "geo.region": "BR-SP",
-    "geo.placename": "São Paulo",
-    "geo.position": "-23.5505;-46.6333",
-    ICBM: "-23.5505, -46.6333",
   },
 };
 
@@ -139,7 +133,6 @@ export default function RootLayout({
     <html lang="pt-BR" suppressHydrationWarning className={`${fontClasses} min-h-full`}>
       <head>
         <script dangerouslySetInnerHTML={{ __html: BOOT_SCRIPT }} />
-        <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM Context" />
       </head>
       <body className="min-h-dvh w-full bg-[var(--os-boot-bg,#090612)] text-[var(--os-boot-fg,#f1f5f9)] antialiased overflow-x-clip selection:bg-pink-500 selection:text-white">
         <script

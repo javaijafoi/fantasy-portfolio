@@ -182,9 +182,9 @@ export default function ArcanaOS({
               <span className="text-xs font-mono-code uppercase tracking-widest text-[#f5c542]">
                 ARTEFATO EQUIPADO // {selectedProject.tag}
               </span>
-              <h1 className="font-arcane text-2xl md:text-3xl font-bold text-[#fff6e0] mt-1">
+              <h2 className="font-arcane text-2xl md:text-3xl font-bold text-[#fff6e0] mt-1">
                 {selectedProject.icon} {selectedProject.title}
-              </h1>
+              </h2>
             </div>
             <div className="w-12 h-12 rounded-full border-2 border-[#f5c542] bg-[#120d09] flex items-center justify-center text-2xl shrink-0">
               {selectedProject.icon}

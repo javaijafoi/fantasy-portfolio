@@ -1,9 +1,9 @@
 <div align="center">
 
-# 🌴 Portfólio do Peter
+# 🖥️ JAVAI-OS // Portfólio do Peter
 
-**Coisas que eu fiz e que estão no ar:** jogos, histórias interativas e experimentos com IA.
-Cada projeto é uma fita no deck: é só escolher e apertar play.
+**Coisas que eu fiz e que estão no ar:** jogos, histórias interativas, ferramentas no navegador e experimentos com IA.
+A vitrine funciona como um **Fantasy OS** com 5 sistemas retrô alternáveis (`JAVAI-64`, `Arcana OS`, `Sunset-OS '88`, `Temple-CRT` e `Win-95`).
 
 [![Abrir o portfólio](https://img.shields.io/badge/%E2%96%B6%20abrir%20o%20portf%C3%B3lio-javaijafoi.dev-ff2e88?style=for-the-badge)](https://javaijafoi.dev)
 
@@ -13,13 +13,13 @@ Cada projeto é uma fita no deck: é só escolher e apertar play.
 ![Tailwind](https://img.shields.io/badge/Tailwind-4-38bdf8?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Vercel](https://img.shields.io/badge/deploy-Vercel-000?style=flat-square&logo=vercel)
 
-<img src="docs/img/home.jpg" alt="Página inicial do portfólio, com estética de fita cassete e synthwave" width="820">
+<img src="docs/img/home.jpg" alt="Página inicial do portfólio JAVAI-OS" width="820">
 
 </div>
 
 ## 🕹️ O que tem lá
 
-Uma vitrine interativa com estética de anos 80, synthwave e arcade. Cada projeto vira um cartão com chamada, descrição, tecnologias, botão de demo e link para o código.
+Uma vitrine interativa que alterna entre cinco estéticas de sistemas operacionais retrô (`?os=picotron|arcana|sunset|mainframe|win95`). Cada projeto tem chamada, descrição, stack, botão para abrir no navegador e link para o código.
 
 <div align="center">
 <img src="docs/img/projetos.jpg" alt="Cartões dos projetos: Matusalém, Era Vargas, Pinta-Kara, iHunt Chronicle e Rolador" width="820">
@@ -37,9 +37,9 @@ Uma vitrine interativa com estética de anos 80, synthwave e arcade. Cada projet
 | 08 | [**Picotron Arena**](https://picotron.javaijafoi.dev) | Dez modos de arcade caóticos num computador de fantasia | [repo](https://github.com/javaijafoi/picotron-arcade) |
 | 09 | [**Jogo do Davi**](https://jogodavi.javaijafoi.dev) | Jogo para crianças aprenderem a ler e a contar | [repo](https://github.com/javaijafoi/Jogo-davi) |
 | 10 | [**Antigravitus**](https://antigravitus.javaijafoi.dev) | Diário de aventuras num RPG de texto, jogado por agentes de IA | [repo](https://github.com/javaijafoi/antigravitus) |
-| 11 | **#iHunt Chronicle** | Mesa virtual para o RPG #iHunt (em pausa) | — |
+| 11 | [**#iHunt Chronicle**](https://ihunt.javaijafoi.dev) | Mesa virtual completa em tempo real para o RPG #iHunt (sistema Fate), feita por fã | — |
 
-Outros projetos públicos no GitHub: [iFone](https://github.com/javaijafoi/ifone) ([no ar](https://ifone.javaijafoi.dev)), o celular de mentira para mesas de #iHunt, e o [iHunt App](https://github.com/javaijafoi/iHunt-app), um fork do Fari App para jogar Fate online. O perfil do autor é [@javaijafoi](https://github.com/javaijafoi), e cada um desses repositórios aponta de volta para este portfólio.
+Outros projetos públicos no GitHub: [iFone](https://github.com/javaijafoi/ifone) ([no ar](https://ifone.javaijafoi.dev)), o celular de mentira para mesas de #iHunt, e o [iHunt App](https://github.com/javaijafoi/iHunt-app), um fork do Fari App para jogar Fate online. Documentação estruturada para IAs e agentes disponível em [`/llms.txt`](https://javaijafoi.dev/llms.txt) e [`/llms-full.txt`](https://javaijafoi.dev/llms-full.txt).
 
 ## 🚀 Rodando localmente
 
@@ -50,14 +50,15 @@ npm run build    # build de produção
 npm run lint
 ```
 
-O conteúdo dos cartões fica em `data/projects.ts`, e os textos da interface em `components/`. Para adicionar um projeto, basta incluir um item novo na lista.
+O conteúdo dos projetos fica em `data/projects.ts`, e as interfaces dos 5 sistemas em `components/os/`. Para adicionar um projeto, basta incluir um item novo na lista.
 
 ## 🧱 Tecnologias
 
 - **Framework:** Next.js 16 (App Router) e React 19
-- **Estilo:** Tailwind CSS v4, glassmorphism e efeitos neon
-- **Tipografia:** Google Fonts (`Righteous` e `Space Grotesk`)
+- **Estilo:** Tailwind CSS v4, glassmorphism, pixel art e CRT
+- **Tipografia:** Google Fonts (`Space Grotesk`, `JetBrains Mono`, `Righteous`, `Silkscreen`, `VT323`, `Cinzel` e `Crimson Pro`)
 - **Áudio:** síntese FM de anos 80 com a Web Audio API
+- **SEO & GEO:** JSON-LD Schema.org (`Person`, `WebSite`, `ProfilePage`, `ItemList`), `sitemap.xml`, `robots.txt`, `llms.txt` e `llms-full.txt`
 - **Deploy:** Vercel
 
 ---

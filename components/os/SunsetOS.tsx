@@ -80,9 +80,9 @@ export default function SunsetOS({
               <span className="text-xs font-mono-code text-cyan-300 block">
                 WALKMAN // FITA {String(safeIdx + 1).padStart(2, "0")} DE {CALIFORNIA_PROJECTS.length}
               </span>
-              <h1 className="font-retro text-lg text-white truncate">
+              <h2 className="font-retro text-lg text-white truncate">
                 {selectedProject.icon} {selectedProject.title}
-              </h1>
+              </h2>
             </div>
             <Disc3 className="w-7 h-7 text-pink-400 cassette-reel-spin shrink-0" />
           </div>
@@ -151,9 +151,9 @@ export default function SunsetOS({
 
                 <div className="flex-1 text-center min-w-0">
                   <div className="text-2xl">{selectedProject.icon}</div>
-                  <h1 className="font-retro text-2xl text-white truncate">
+                  <h2 className="font-retro text-2xl text-white truncate">
                     {selectedProject.title}
-                  </h1>
+                  </h2>
                 </div>
 
                 <div className="w-10 h-10 rounded-full border-2 border-cyan-400 bg-black/70 flex items-center justify-center cassette-reel-spin shrink-0">

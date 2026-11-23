@@ -211,9 +211,9 @@ export default function TempleCrtOS({
               <span>TAG: [{selectedAscii}] // STATUS: 200 OK</span>
             </div>
 
-            <h1 className="font-crt text-3xl md:text-4xl tracking-wide font-bold">
+            <h2 className="font-crt text-3xl md:text-4xl tracking-wide font-bold">
               [[ {selectedProject.title.toUpperCase()} ]]
-            </h1>
+            </h2>
 
             <div className="text-xs font-bold opacity-95">
               &gt;&gt; {selectedProject.tag} {"//"} {selectedProject.tagline}

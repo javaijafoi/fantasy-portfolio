@@ -1,8 +1,8 @@
-# California Dreams '88 // Peter's Arcade
+# JAVAI-OS // Portfólio do Peter (@javaijafoi)
 
 > Portfólio do Peter (@javaijafoi): jogos, ferramentas web, ficção interativa e experimentos com IA, todos no ar. Desenvolvido em São Paulo, Brasil.
 
-Peter é um desenvolvedor independente brasileiro que constrói jogos de navegador, ficção interativa, ferramentas para RPG de mesa e experimentos com agentes autônomos de IA. Todos os projetos rodam diretamente no navegador, sem cadastro e sem necessidade de instalação.
+Peter é um desenvolvedor independente brasileiro que constrói jogos de navegador, ficção interativa, ferramentas para RPG de mesa e experimentos com agentes autônomos de IA. O portfólio funciona como um Fantasy OS com 5 temas retrô alternáveis (`JAVAI-64`, `Arcana OS`, `Sunset-OS '88`, `Temple-CRT` e `Win-95`) via parâmetro `?os=picotron|arcana|sunset|mainframe|win95`. Todos os projetos rodam diretamente no navegador, sem cadastro e sem necessidade de instalação.
 
 ## Projetos Principais
 

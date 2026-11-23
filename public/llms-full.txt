@@ -1,4 +1,4 @@
-# California Dreams '88 // Peter's Arcade — Especificação Técnica Completa (llms-full.txt)
+# JAVAI-OS // Portfólio do Peter (@javaijafoi) — Especificação Técnica Completa (llms-full.txt)
 
 > Documentação técnica detalhada do portfólio de Peter (@javaijafoi), desenvolvedor de software independente em São Paulo, Brasil.
 > URL canônica: https://javaijafoi.dev
@@ -8,6 +8,8 @@
 ---
 
 ## 1. Visão Geral da Arquitetura
+
+O próprio portfólio (**JAVAI-OS**) foi construído em **Next.js 16 (App Router)**, **React 19**, **Tailwind CSS v4** e **Web Audio API**, oferecendo 5 interfaces retrô de Fantasy OS alternáveis em tempo real (`JAVAI-64`, `Arcana OS`, `Sunset-OS '88`, `Temple-CRT` e `Win-95`) por seletor ou via `?os=picotron|arcana|sunset|mainframe|win95`.
 
 Todos os projetos do portfólio priorizam execução **client-side no navegador** (WebAssembly, Canvas 2D, WebGL/Three.js, MediaPipe, Web Audio API e PWAs offline-first), sem exigir instalação ou cadastro. Quando há sincronização em nuvem (Supabase ou Firebase), o acesso é restrito por funções RPC (`SECURITY DEFINER`) com chaves publicáveis (`sb_publishable_*`) ou regras granulares do Firestore, mantendo `localStorage` como fonte primária resiliente a quedas de conexão.
 

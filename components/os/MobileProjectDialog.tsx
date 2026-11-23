@@ -180,7 +180,7 @@ export default function MobileProjectDialog({
             >
               {isMainframe ? `[${asciiTag}] // ${project.tag}` : project.tag}
             </span>
-            <h1
+            <h2
               id={titleId}
               className={`mt-1 ${
                 activeOS === "picotron"
@@ -195,7 +195,7 @@ export default function MobileProjectDialog({
               }`}
             >
               {isMainframe ? `[[ ${project.title.toUpperCase()} ]]` : `${project.icon} ${project.title}`}
-            </h1>
+            </h2>
           </div>
 
           {!isMainframe && (

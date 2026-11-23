@@ -207,9 +207,9 @@ export default function Win95OS({
                     <span className="text-xs font-mono-code text-gray-700 block">
                       {selectedProject.tag}
                     </span>
-                    <h1 className="text-xl md:text-2xl font-bold text-[#000080]">
+                    <h2 className="text-xl md:text-2xl font-bold text-[#000080]">
                       {selectedProject.title}
-                    </h1>
+                    </h2>
                   </div>
                 </div>
                 <span className="bg-[#ffffcc] border border-black px-2 py-0.5 text-xs font-mono-code shrink-0">
@@ -393,7 +393,7 @@ export default function Win95OS({
         className="m-auto w-[calc(100vw-1.5rem)] max-w-md bg-[#c0c0c0] text-black win95-bevel p-1 font-win95 open:flex flex-col"
       >
         <div className="bg-gradient-to-r from-[#000080] to-[#1084d0] text-white px-2.5 py-1.5 flex items-center justify-between text-xs font-bold">
-          <h1 id={extrasTitleId}>📁 C:\Javai\Outros_Repositorios</h1>
+          <h2 id={extrasTitleId}>📁 C:\Javai\Outros_Repositorios</h2>
           <button
             type="button"
             onClick={() => setExtrasOpen(false)}
@@ -411,7 +411,7 @@ export default function Win95OS({
               className="p-2.5 border border-gray-300 flex items-center justify-between gap-3"
             >
               <div>
-                <h2 className="text-xs font-bold text-[#000080]">{ep.name}</h2>
+                <h3 className="text-xs font-bold text-[#000080]">{ep.name}</h3>
                 <p className="text-xs text-gray-800 mt-0.5">{ep.description}</p>
               </div>
               <a

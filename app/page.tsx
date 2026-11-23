@@ -7,12 +7,15 @@ export default function Home() {
     <>
       <FantasyOS />
       {/* Lista com links de verdade, legível por buscadores, leitores de tela e IAs. */}
-      <section aria-label="Lista de projetos" className="sr-only">
-        <h2>Projetos do Peter (@javaijafoi) - Desenvolvedor em São Paulo, Brasil</h2>
+      <section aria-label="Portfólio do Peter (@javaijafoi)" className="sr-only">
+        <h1>Peter (@javaijafoi) — JAVAI-OS: jogos, histórias interativas e experimentos com IA</h1>
         <p>
-          Portfólio com jogos no navegador, ficção interativa, utilitários client-side e agentes de IA.
-          Documentação para agentes e modelos de linguagem disponível em <a href="/llms.txt">llms.txt</a> e <a href="/llms-full.txt">llms-full.txt</a>.
+          Portfólio de Peter (@javaijafoi), desenvolvedor em São Paulo, Brasil, com jogos no navegador,
+          ficção interativa, utilitários client-side e agentes de IA rodando direto no navegador sem cadastro.
+          Documentação para agentes e modelos de linguagem disponível em <a href="/llms.txt">llms.txt</a> e{" "}
+          <a href="/llms-full.txt">llms-full.txt</a>.
         </p>
+        <h2>Projetos no ar</h2>
         <ul>
           {CALIFORNIA_PROJECTS.map((p) => (
             <li key={p.id}>

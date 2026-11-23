@@ -7,6 +7,7 @@ export const SITE_TITLE = "Peter (@javaijafoi) | Jogos, histórias interativas e
 export const SITE_DESCRIPTION =
   "Portfólio do Peter (@javaijafoi): jogos, histórias interativas e experimentos com IA, todos no ar. Arcade no navegador, RPG de mesa, ficção interativa e visão computacional.";
 export const GITHUB_URL = "https://github.com/javaijafoi";
+export const SITE_LAST_MODIFIED = "2026-11-23";
 
 /** Projetos públicos que não têm cartão no portfólio, mas ficam ligados a ele por links cruzados. */
 export const EXTRA_PROJECTS = [
@@ -23,15 +24,6 @@ export const EXTRA_PROJECTS = [
     repo: "https://github.com/javaijafoi/iHunt-app",
   },
 ];
-
-/** Perfil do GitHub mais todo repositório público ligado ao portfólio. */
-export function publicLinks(): string[] {
-  const repos = [
-    ...CALIFORNIA_PROJECTS.map((p) => p.githubUrl),
-    ...EXTRA_PROJECTS.map((p) => p.repo),
-  ].filter((u): u is string => Boolean(u));
-  return [GITHUB_URL, ...Array.from(new Set(repos))];
-}
 
 export const SITE_KEYWORDS = [
   "Peter",
@@ -76,9 +68,11 @@ export function buildJsonLd() {
         "@type": "Person",
         "@id": `${SITE_URL}/#peter`,
         name: "Peter",
+        identifier: "javaijafoi",
         alternateName: ["javaijafoi", "Peter Mac"],
         url: SITE_URL,
-        sameAs: publicLinks(),
+        sameAs: [GITHUB_URL],
+        mainEntityOfPage: { "@id": `${SITE_URL}/#profilepage` },
         jobTitle: "Desenvolvedor de software, jogos web e experimentos com IA",
         disambiguatingDescription:
           "Desenvolvedor independente brasileiro em São Paulo, criador de jogos de navegador, ficção interativa, ferramentas PICO-8 e aplicações com agentes de IA.",
@@ -126,9 +120,11 @@ export function buildJsonLd() {
         "@id": `${SITE_URL}/#profilepage`,
         url: SITE_URL,
         name: SITE_TITLE,
+        dateModified: SITE_LAST_MODIFIED,
         isPartOf: { "@id": `${SITE_URL}/#website` },
         about: { "@id": `${SITE_URL}/#peter` },
         mainEntity: { "@id": `${SITE_URL}/#peter` },
+        hasPart: { "@id": `${SITE_URL}/#projetos` },
         inLanguage: "pt-BR",
       },
       {
@@ -149,6 +145,7 @@ export function buildJsonLd() {
               applicationCategory: PROJECT_CATEGORIES[p.id] || "SoftwareApplication",
               operatingSystem: "Qualquer navegador moderno",
               inLanguage: "pt-BR",
+              isAccessibleForFree: true,
               keywords: p.techStack.join(", "),
               author: { "@id": `${SITE_URL}/#peter` },
               offers: { "@type": "Offer", price: "0", priceCurrency: "BRL" },
@@ -166,7 +163,9 @@ export function buildJsonLd() {
               applicationCategory: "WebApplication",
               operatingSystem: "Qualquer navegador moderno",
               inLanguage: "pt-BR",
+              isAccessibleForFree: true,
               author: { "@id": `${SITE_URL}/#peter` },
+              offers: { "@type": "Offer", price: "0", priceCurrency: "BRL" },
               codeRepository: p.repo,
             },
           })),
