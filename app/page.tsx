@@ -1,11 +1,11 @@
-import CaliforniaVibes from "@/components/CaliforniaVibes";
+import FantasyOS from "@/components/FantasyOS";
 import { CALIFORNIA_PROJECTS } from "@/data/projects";
 import { EXTRA_PROJECTS, GITHUB_URL } from "@/lib/site";
 
 export default function Home() {
   return (
     <>
-      <CaliforniaVibes />
+      <FantasyOS />
       {/* Lista com links de verdade, legível por buscadores, leitores de tela e IAs. */}
       <section aria-label="Lista de projetos" className="sr-only">
         <h2>Projetos do Peter (@javaijafoi) - Desenvolvedor em São Paulo, Brasil</h2>

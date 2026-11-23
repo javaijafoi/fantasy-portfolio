@@ -1,5 +1,13 @@
 import type { Metadata, Viewport } from "next";
-import { Righteous, Space_Grotesk } from "next/font/google";
+import {
+  Righteous,
+  Space_Grotesk,
+  Silkscreen,
+  VT323,
+  Cinzel,
+  Crimson_Pro,
+  JetBrains_Mono,
+} from "next/font/google";
 import "./globals.css";
 import {
   SITE_URL,
@@ -14,16 +22,54 @@ import {
 const righteous = Righteous({
   weight: "400",
   subsets: ["latin"],
+  display: "swap",
   variable: "--font-righteous",
 });
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
+  display: "swap",
   variable: "--font-body",
 });
 
+const silkscreen = Silkscreen({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-pixel",
+});
+
+const vt323 = VT323({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-crt",
+});
+
+const cinzel = Cinzel({
+  weight: ["600", "700"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-arcane",
+});
+
+const crimsonPro = Crimson_Pro({
+  weight: ["400", "600"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-grimoire",
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-mono-code",
+});
+
+const BOOT_SCRIPT = `(function(){try{var o=["picotron","arcana","sunset","mainframe","win95"];var q=new URLSearchParams(location.search).get("os");var p=(q&&o.indexOf(q)!==-1)?q:o[Math.floor(Math.random()*o.length)];document.documentElement.setAttribute("data-os",p);}catch(e){document.documentElement.setAttribute("data-os","picotron");}})();`;
+
 export const viewport: Viewport = {
-  themeColor: "#0d071e",
+  themeColor: "#090612",
   colorScheme: "dark",
 };
 
@@ -64,7 +110,7 @@ export const metadata: Metadata = {
     site: "@javaijafoi",
   },
   icons: {
-    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌴</text></svg>",
+    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🖥️</text></svg>",
   },
   other: {
     "geo.region": "BR-SP",
@@ -79,12 +125,23 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const fontClasses = [
+    righteous.variable,
+    spaceGrotesk.variable,
+    silkscreen.variable,
+    vt323.variable,
+    cinzel.variable,
+    crimsonPro.variable,
+    jetbrainsMono.variable,
+  ].join(" ");
+
   return (
-    <html lang="pt-BR" className={`${righteous.variable} ${spaceGrotesk.variable} h-full`}>
+    <html lang="pt-BR" suppressHydrationWarning className={`${fontClasses} min-h-full`}>
       <head>
+        <script dangerouslySetInnerHTML={{ __html: BOOT_SCRIPT }} />
         <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM Context" />
       </head>
-      <body className="min-h-full w-full bg-[#0d071e] text-slate-100 antialiased overflow-x-hidden selection:bg-pink-500 selection:text-white">
+      <body className="min-h-dvh w-full bg-[var(--os-boot-bg,#090612)] text-[var(--os-boot-fg,#f1f5f9)] antialiased overflow-x-clip selection:bg-pink-500 selection:text-white">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(buildJsonLd()).replace(/</g, "\\u003c") }}

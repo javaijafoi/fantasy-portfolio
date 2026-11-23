@@ -2,7 +2,7 @@ import { CALIFORNIA_PROJECTS } from "@/data/projects";
 
 /** Endereço canônico do portfólio (uma única URL para o Google e as IAs citarem). */
 export const SITE_URL = "https://javaijafoi.dev";
-export const SITE_NAME = "California Dreams '88 // Peter's Arcade";
+export const SITE_NAME = "JAVAI-OS // Fantasy OS do Peter (@javaijafoi)";
 export const SITE_TITLE = "Peter (@javaijafoi) | Jogos, histórias interativas e experimentos com IA";
 export const SITE_DESCRIPTION =
   "Portfólio do Peter (@javaijafoi): jogos, histórias interativas e experimentos com IA, todos no ar. Arcade no navegador, RPG de mesa, ficção interativa e visão computacional.";

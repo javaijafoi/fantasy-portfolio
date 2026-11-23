@@ -3,6 +3,12 @@
 @theme {
   --font-retro: var(--font-righteous), cursive, sans-serif;
   --font-sans: var(--font-body), sans-serif;
+  --font-pixel: var(--font-pixel), monospace;
+  --font-crt: var(--font-crt), monospace;
+  --font-arcane: var(--font-arcane), Georgia, serif;
+  --font-grimoire: var(--font-grimoire), Georgia, serif;
+  --font-mono-code: var(--font-mono-code), ui-monospace, monospace;
+  --font-win95: "MS Sans Serif", Tahoma, "Segoe UI", Arial, sans-serif;
 }
 
 :root {
@@ -10,19 +16,87 @@
   --neon-cyan: #00f0ff;
   --neon-yellow: #ffde59;
   --neon-purple: #9d4edd;
+  --os-boot-bg: #090612;
+  --os-boot-fg: #f1f5f9;
+}
+
+html[data-os="picotron"] {
+  --os-boot-bg: #1d2b53;
+  --os-boot-fg: #fff1e8;
+}
+
+html[data-os="arcana"] {
+  --os-boot-bg: #100b08;
+  --os-boot-fg: #e8d8b9;
+}
+
+html[data-os="sunset"] {
+  --os-boot-bg: #120524;
+  --os-boot-fg: #f1f5f9;
+}
+
+html[data-os="mainframe"] {
+  --os-boot-bg: #060706;
+  --os-boot-fg: #ffb000;
+}
+
+html[data-os="win95"] {
+  --os-boot-bg: #008080;
+  --os-boot-fg: #ffffff;
 }
 
 body {
   font-family: var(--font-body), sans-serif;
 }
 
+.os-boot-screen {
+  background-color: var(--os-boot-bg);
+  color: var(--os-boot-fg);
+}
+
+/* Native <dialog> scroll containment (mandatory for both modal & backdrop) */
+dialog:modal {
+  overscroll-behavior: contain;
+}
+
+dialog::backdrop {
+  overflow: hidden;
+  overscroll-behavior: contain;
+  background-color: rgba(4, 3, 10, 0.72);
+  backdrop-filter: blur(3px);
+}
+
 .font-retro {
   font-family: var(--font-righteous), cursive, sans-serif;
 }
 
+.font-pixel {
+  font-family: var(--font-pixel), monospace;
+}
+
+.font-crt {
+  font-family: var(--font-crt), monospace;
+}
+
+.font-arcane {
+  font-family: var(--font-arcane), Georgia, serif;
+}
+
+.font-grimoire {
+  font-family: var(--font-grimoire), Georgia, serif;
+}
+
+.font-mono-code {
+  font-family: var(--font-mono-code), ui-monospace, monospace;
+}
+
+.font-win95 {
+  font-family: "MS Sans Serif", Tahoma, "Segoe UI", Arial, sans-serif;
+}
+
 /* 80s California Sunset Grid Background */
 .california-bg {
-  background: 
+  background:
     radial-gradient(circle at 50% 15%, rgba(255, 42, 133, 0.25) 0%, rgba(157, 78, 221, 0.15) 35%, transparent 70%),
     linear-gradient(180deg, #0e0720 0%, #170936 45%, #2a0845 75%, #120422 100%);
   background-attachment: fixed;
@@ -30,22 +104,10 @@ body {
 
 /* Synthwave Sunset Horizon lines */
 .synth-horizon {
-  background-image: 
+  background-image:
     linear-gradient(rgba(0, 240, 255, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 42, 133, 0.06) 1px, transparent 1px);
   background-size: 40px 40px;
-}
-
-/* CRT Scanlines Effect */
-.os-scanlines {
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0),
-    rgba(255, 255, 255, 0) 50%,
-    rgba(0, 0, 0, 0.24) 50%,
-    rgba(0, 0, 0, 0.24)
-  );
-  background-size: 100% 4px;
 }
 
 /* PICO-8 / Picotron hard shadow */
@@ -83,8 +145,27 @@ body {
 
 /* Glassmorphism Card */
 .glass-card {
-  background: rgba(26, 16, 48, 0.72);
+  background: rgba(26, 16, 48, 0.78);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.14);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cassette-reel-spin {
+  animation: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .cassette-reel-spin {
+    animation: spin-slow 4s linear infinite;
+  }
 }

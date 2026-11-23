@@ -20,10 +20,10 @@ export default function OpengraphImage() {
         }}
       >
         <div style={{ fontSize: 28, color: "#00f0ff", letterSpacing: 6, display: "flex" }}>
-          SUMMER ARCADE EDITION
+          FANTASY OS • 5 SISTEMAS
         </div>
         <div style={{ fontSize: 96, fontWeight: 800, marginTop: 16, display: "flex" }}>
-          CALIFORNIA DREAMS
+          JAVAI-OS
         </div>
         <div style={{ fontSize: 40, marginTop: 24, color: "#fbcfe8", display: "flex" }}>
           Jogos, histórias interativas e experimentos com IA
