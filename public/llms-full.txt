@@ -1,0 +1,134 @@
+# Portfólio Completo do Peter (@javaijafoi) // California Dreams '88
+
+URL Canônica: https://javaijafoi.dev
+Autor: Peter (@javaijafoi / Peter Mac)
+Localização: São Paulo, Brasil
+Áreas de Atuação: Jogos no Navegador, Ficção Interativa, Ferramentas Web Client-Side (WASM), RPG de Mesa, Visão Computacional no Navegador e Agentes Autônomos de IA.
+
+---
+
+## 1. Visão Geral
+
+O portfólio "California Dreams '88" é uma vitrine interativa no ar em https://javaijafoi.dev com temática retrô synthwave/arcade dos anos 80, sintetizador FM de áudio procedural via Web Audio API e catálogo de cartuchos navegáveis.
+Todos os projetos desenvolvidos por Peter têm em comum o princípio de rodar direto no navegador, sem exigir download de instaladores pesados, sem coleta de dados e sem barreiras de cadastro.
+
+Stack do Portfólio:
+- Framework: Next.js 16 (App Router)
+- Biblioteca de UI: React 19
+- Estilização: Tailwind CSS v4 com design system neon/glassmorphism
+- Áudio: Síntese procedural de notas com Web Audio API
+- Deploy: Vercel
+
+---
+
+## 2. Detalhamento dos Projetos
+
+### Track 01: Pico Multitool
+- URL: https://multitool.javaijafoi.dev
+- Código: https://github.com/javaijafoi/pico-tools
+- Tecnologias: JavaScript, ffmpeg.wasm, pdf-lib, Tesseract.js, PWA, Web Workers
+- O que faz: Mais de 50 utilitários que executam inteiramente na máquina do usuário via WebAssembly e Web Workers.
+- Funcionalidades principais:
+  - Remoção de fundo de imagens usando modelos leves de IA no navegador.
+  - Compressão, corte e conversão de áudio e vídeo usando ffmpeg.wasm.
+  - OCR (reconhecimento óptico de caracteres) de imagens e documentos PDF.
+  - Divisão, junção e manipulação de páginas de arquivos PDF.
+  - Gerador e validador de CPF, CNPJ e outros documentos nacionais válidos para testes.
+  - Gerador de QR Code com customização de cores.
+  - Calculadoras e utilitários rápidos de texto e data.
+
+### Track 02: Rolador
+- URL: https://rolador.javaijafoi.dev
+- Código: https://github.com/javaijafoi/rolador
+- Tecnologias: React, TypeScript, Vite, Web Audio API
+- O que faz: Rolador de dados digital com temática retrô PICO-8 projetado especificamente para RPGs de mesa.
+- Sistemas suportados nativamente:
+  - D&D 5e e Tormenta 20 (rolagens padrão, vantagens e desvantagens, críticos).
+  - Vampiro: A Máscara V5 (dados normais e dados de Fome, sucessos críticos bestiais e falhas totais).
+  - Storyteller / World of Darkness (contagem de sucessos por limiar).
+  - Fate / Fudge (dados 4dF com cálculo de escala).
+  - Chamado de Cthulhu (testes percentuais d100 com níveis de sucesso).
+  - Shadowrun (contagem de sucessos d6 e falhas críticas).
+  - Savage Worlds (dados explosivos e dado coringa).
+  - Blades in the Dark (maior dado e consequências).
+  - Daggerheart e GURPS (soma 3d6).
+  - Sintaxe livre personalizável: `4d6kh3`, `8d10>=7`, `d20+5`, etc.
+- Armazenamento: Histórico salvo exclusivamente no localStorage do dispositivo.
+
+### Track 03: Matusalém
+- URL: https://matusalem.javaijafoi.dev
+- Tecnologias: ink (Inkle), inkjs, JavaScript, HTML5/CSS3
+- O que faz: Jogo narrativo de ficção interativa de mistério e investigação policial noir ambientado no bairro paulistano do Bixiga (São Paulo, Brasil).
+- Mecânicas:
+  - Relógio de tempo real/virtual correndo até o amanhecer.
+  - Necessidades do personagem (fome, energia, sinal de celular).
+  - Caderno de notas e pistas coletadas durante as decisões.
+  - Múltiplas ramificações narrativas e desfechos.
+
+### Track 04: Pico Poetry
+- URL: https://poesia.javaijafoi.dev
+- Código: https://github.com/javaijafoi/pico-poetry
+- Tecnologias: HTML5, CSS3, JavaScript, HTML Canvas API
+- O que faz: Coletânea de 98 poemas curtos autorais de Peter Mac apresentados em estética pixel art de 16 cores (PICO-8).
+- Recursos: Sorteador randômico, índice temático pesquisável e gerador de cartões para download/compartilhamento em imagem PNG estilizada.
+
+### Track 05: Arena de Arton
+- URL: https://arena.javaijafoi.dev
+- Código: https://github.com/javaijafoi/arena-de-arton
+- Tecnologias: Vanilla JavaScript, CSS Grid, Motor de Regras D20 Customizado, IA de Combate Heurística
+- O que faz: Simulador tático de combate em turnos baseado no sistema de RPG brasileiro Tormenta 20 (T20).
+- Recursos:
+  - Grade de batalha 16x12 quadrados com movimentação tática, obstáculos e linhas de visão.
+  - Combate do 1º ao 14º nível com magias até o 4º círculo, condições, manobras de combate, flanco e regras oficiais.
+  - Modos de jogo: jogador contra IA ou controle manual de ambos os lados.
+  - Projeto independente de fã sem vínculo comercial com a Jambô Editora.
+
+### Track 06: Pinta-Kara
+- URL: https://pintakara.javaijafoi.dev
+- Código: https://github.com/javaijafoi/pinta-kara
+- Tecnologias: JavaScript, Google MediaPipe Handpose, HTML5 Canvas, Vite
+- O que faz: Aplicação web de realidade aumentada e pintura gestual no ar usando visão computacional direto pelo feed da webcam.
+- Recursos: Detecção de gestos (pinça com polegar e indicador para desenhar, seletores de paleta acionados por gestos espaciais). Totalmente client-side, preservando a privacidade visual do usuário.
+
+### Track 07: Era Vargas: O Equilibrista
+- URL: https://equilibrista.javaijafoi.dev
+- Código: https://github.com/javaijafoi/era-vargas-seliga
+- Tecnologias: React, Three.js, React Three Fiber (@react-three/fiber), Web Speech / TTS sintetizado
+- O que faz: Jogo educacional 3D de tomada de decisões sobre o governo de Getúlio Vargas no Brasil entre 1930 e 1945.
+- Dinâmica: O jogador administra o equilíbrio de quatro forças políticas: Exército, Povo, Elite Econômica e Aparelho de Controle. Cenário 3D low poly reproduzindo o Palácio do Catete.
+
+### Track 08: Picotron Arena
+- URL: https://picotron.javaijafoi.dev
+- Código: https://github.com/javaijafoi/picotron-arcade
+- Tecnologias: HTML5 puro (arquivo único auto-contido), Canvas 2D, JavaScript ES6
+- O que faz: Estação de jogos retrô com 10 minijogos de arcade com física e ação caótica, rodando perfeitamente tanto em desktop quanto em telas touch de smartphones.
+
+### Track 09: Jogo do Davi
+- URL: https://jogodavi.javaijafoi.dev
+- Código: https://github.com/javaijafoi/Jogo-davi
+- Tecnologias: React, TypeScript, Vite, Algoritmo de Repetição Espaçada
+- O que faz: Jogo educacional de alfabetização precoce e raciocínio lógico voltado para crianças pequenas, empregando o método fônico, sons associativos e trilha adaptativa sem punição por erro.
+
+### Track 10: Antigravitus
+- URL: https://antigravitus.javaijafoi.dev
+- Código: https://github.com/javaijafoi/antigravitus
+- Tecnologias: Python, Agentes Autônomos de IA (LLMs), Telnet/Socket, Next.js / Static Site
+- O que faz: Experimento de IA generativa e agentes autônomos jogando o clássico MUD (Multi-User Dungeon) online Devil's Bob MUD. Os agentes tomam decisões dentro do ambiente de texto e relatam as sessões em formato de diários de aventura, crônicas narrativas e mapeamento procedural.
+
+### Track 11: #iHunt Chronicle
+- URL: https://ihunt.javaijafoi.dev
+- Tecnologias: React, TypeScript, Firebase Firestore, WebSockets em tempo real
+- O que faz: Mesa virtual completa (VTT) para mestres e jogadores do RPG de horror moderno #iHunt (baseado no sistema Fate), com suporte a cenas táticas, fichas interativas e automação de regras.
+
+---
+
+## 3. Informações Geográficas e de Entidade (Geo SEO)
+
+- País: Brasil (BR)
+- Estado: São Paulo (SP)
+- Cidade: São Paulo
+- Bairro retratado em obras: Bixiga / Bela Vista
+- Idioma principal: Português do Brasil (pt-BR)
+- Contato & Perfis:
+  - GitHub: https://github.com/javaijafoi
+  - Website Oficial: https://javaijafoi.dev

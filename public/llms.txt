@@ -1,31 +1,31 @@
 # California Dreams '88 // Peter's Arcade
 
-> Portfólio do Peter (@javaijafoi): jogos, histórias interativas e experimentos com IA, todos no ar. Site em português do Brasil.
+> Portfólio do Peter (@javaijafoi): jogos, ferramentas web, ficção interativa e experimentos com IA, todos no ar. Desenvolvido em São Paulo, Brasil.
 
-Peter é um desenvolvedor brasileiro que cria jogos no navegador, ficção interativa, ferramentas para RPG de mesa e experimentos com agentes de IA. Cada projeto abaixo está publicado e pode ser aberto sem instalar nada.
+Peter é um desenvolvedor independente brasileiro que constrói jogos de navegador, ficção interativa, ferramentas para RPG de mesa e experimentos com agentes autônomos de IA. Todos os projetos rodam diretamente no navegador, sem cadastro e sem necessidade de instalação.
 
-## Projetos
+## Projetos Principais
 
-- [Pico Multitool](https://multitool.javaijafoi.dev): 50 ferramentas grátis que rodam no navegador (remover fundo de imagem, vídeo, áudio, PDF, texto, CPF/CNPJ, QR Code, calculadoras). Código: https://github.com/javaijafoi/pico-tools
-- [Rolador](https://rolador.javaijafoi.dev): Dados para qualquer RPG de mesa, com cara de PICO-8. Código: https://github.com/javaijafoi/rolador
-- [Matusalém](https://matusalem.javaijafoi.dev): Uma história interativa de mistério no Bixiga.
-- [Pico Poetry](https://poesia.javaijafoi.dev): Petiscos de poesia em pixel: 98 poemas para sortear e compartilhar como imagem. Código: https://github.com/javaijafoi/pico-poetry
-- [Arena de Arton](https://arena.javaijafoi.dev): Simulador de combate tático por turnos de Tormenta 20 (homenagem de fã, não oficial). Código: https://github.com/javaijafoi/arena-de-arton
-- [Pinta-Kara](https://pintakara.javaijafoi.dev): Desenhe no ar com as mãos, usando só a webcam. Código: https://github.com/javaijafoi/pinta-kara
-- [Era Vargas: O Equilibrista](https://equilibrista.javaijafoi.dev): Um jogo 3D de decisões sobre o Brasil de 1930 a 1945. Código: https://github.com/javaijafoi/era-vargas-seliga
-- [Picotron Arena](https://picotron.javaijafoi.dev): Dez modos de arcade caóticos dentro de um computador de fantasia. Código: https://github.com/javaijafoi/picotron-arcade
-- [Jogo do Davi](https://jogodavi.javaijafoi.dev): Um jogo para crianças aprenderem a ler e a contar. Código: https://github.com/javaijafoi/Jogo-davi
-- [Antigravitus](https://antigravitus.javaijafoi.dev): Um diário de aventuras num RPG de texto, jogado por agentes de IA. Código: https://github.com/javaijafoi/antigravitus
-- [#iHunt Chronicle](https://ihunt.javaijafoi.dev): Uma mesa virtual completa para o RPG #iHunt, feita por fã.
+- [Pico Multitool](https://multitool.javaijafoi.dev): 50 ferramentas grátis que rodam no navegador com processamento 100% local (remover fundo de imagem com IA, compressão e corte de vídeo com ffmpeg.wasm, OCR de imagem e PDF com Tesseract, manipulação de PDF com pdf-lib, gerador e validador de CPF/CNPJ, QR Code, calculadoras). Código: https://github.com/javaijafoi/pico-tools
+- [Rolador](https://rolador.javaijafoi.dev): Rolador de dados para doze sistemas de RPG de mesa (Tormenta 20, D&D 5e, Vampiro V5, Storyteller, Fate, Chamado de Cthulhu, Shadowrun, Savage Worlds, Blades in the Dark, Daggerheart, GURPS) com estética retrô PICO-8 e Web Audio API. Código: https://github.com/javaijafoi/rolador
+- [Matusalém](https://matusalem.javaijafoi.dev): Ficção interativa noir ambientada no bairro do Bixiga em São Paulo. História investigativa em texto com múltiplos caminhos, mecânica de tempo e pistas feita com a engine ink.
+- [Pico Poetry](https://poesia.javaijafoi.dev): 98 poemas curtos de Peter Mac em interface estilo PICO-8 com sorteio aleatório, busca e exportação para cartões pixelados. Código: https://github.com/javaijafoi/pico-poetry
+- [Arena de Arton](https://arena.javaijafoi.dev): Simulador de combate tático por turnos em grade para o sistema Tormenta 20. Permite montar grupo de heróis e batalhar contra IA tática. Homenagem de fã independente. Código: https://github.com/javaijafoi/arena-de-arton
+- [Pinta-Kara](https://pintakara.javaijafoi.dev): Desenho no ar em tempo real usando a webcam e visão computacional com MediaPipe Hand Tracking direto no browser, com total privacidade. Código: https://github.com/javaijafoi/pinta-kara
+- [Era Vargas: O Equilibrista](https://equilibrista.javaijafoi.dev): Jogo 3D histórico e educacional de tomada de decisões sobre o Brasil de 1930 a 1945, desenvolvido com React Three Fiber e síntese de voz. Código: https://github.com/javaijafoi/era-vargas-seliga
+- [Picotron Arena](https://picotron.javaijafoi.dev): Estação arcade retrô com 10 minijogos de ação contidos num único arquivo HTML, compatível com PC e mobile. Código: https://github.com/javaijafoi/picotron-arcade
+- [Jogo do Davi](https://jogodavi.javaijafoi.dev): Jogo educacional de alfabetização infantil baseado no método fônico e repetição espaçada. Código: https://github.com/javaijafoi/Jogo-davi
+- [Antigravitus](https://antigravitus.javaijafoi.dev): Diário de bordo e crônicas geradas a partir de sessões jogadas por agentes autônomos de IA no clássico Devil's Bob MUD (RPG de texto). Código: https://github.com/javaijafoi/antigravitus
+- [#iHunt Chronicle](https://ihunt.javaijafoi.dev): Mesa virtual (VTT) colaborativa em tempo real para o RPG #iHunt (sistema Fate), com fichas, tokens, rolagem e codex de regras.
 
-## Outros repositórios públicos
+## Outros Projetos e Repositórios
 
-- [iFone](https://ifone.javaijafoi.dev): Celular de mentira para sortear coisas em mesas de #iHunt (PWA, funciona offline). Código: https://github.com/javaijafoi/ifone
-- [iHunt App](https://github.com/javaijafoi/iHunt-app): Fork do Fari App, mesa virtual open source para jogar Fate online, preparado para mesas de #iHunt.
+- [iFone](https://ifone.javaijafoi.dev): Aplicativo simulador de smartphone de mentira para mesas de RPG #iHunt (PWA offline). Código: https://github.com/javaijafoi/ifone
+- [iHunt App](https://github.com/javaijafoi/iHunt-app): Fork customizado do Fari App para sessões de RPG Fate e #iHunt.
+- [Fantasy Portfolio](https://github.com/javaijafoi/fantasy-portfolio): Código-fonte deste portfólio em Next.js 16, React 19 e Tailwind CSS v4.
 
-## Links
+## Optional
 
-- [Portfólio](https://javaijafoi.dev)
-- [GitHub do Peter](https://github.com/javaijafoi)
-- [Perfil README no GitHub](https://github.com/javaijafoi/javaijafoi)
-- [Sitemap](https://javaijafoi.dev/sitemap.xml)
+- [Texto Completo para LLMs (llms-full.txt)](https://javaijafoi.dev/llms-full.txt): Especificação técnica e detalhes profundos de arquitetura de cada projeto.
+- [GitHub de Peter (@javaijafoi)](https://github.com/javaijafoi): Perfil com todos os repositórios de código aberto.
+- [Sitemap](https://javaijafoi.dev/sitemap.xml): Mapa do site em XML.

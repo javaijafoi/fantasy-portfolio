@@ -2,12 +2,25 @@ import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const now = new Date();
   return [
     {
       url: SITE_URL,
-      lastModified: new Date("2026-11-18"),
-      changeFrequency: "monthly",
-      priority: 1,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 1.0,
+    },
+    {
+      url: `${SITE_URL}/llms.txt`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${SITE_URL}/llms-full.txt`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
     },
   ];
 }

@@ -8,7 +8,11 @@ export default function Home() {
       <CaliforniaVibes />
       {/* Lista com links de verdade, legível por buscadores, leitores de tela e IAs. */}
       <section aria-label="Lista de projetos" className="sr-only">
-        <h2>Projetos do Peter</h2>
+        <h2>Projetos do Peter (@javaijafoi) - Desenvolvedor em São Paulo, Brasil</h2>
+        <p>
+          Portfólio com jogos no navegador, ficção interativa, utilitários client-side e agentes de IA.
+          Documentação para agentes e modelos de linguagem disponível em <a href="/llms.txt">llms.txt</a> e <a href="/llms-full.txt">llms-full.txt</a>.
+        </p>
         <ul>
           {CALIFORNIA_PROJECTS.map((p) => (
             <li key={p.id}>

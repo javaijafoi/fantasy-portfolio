@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/site";
 
-// Tudo aberto de propósito: buscadores e rastreadores de IA podem ler o site.
+// Tudo aberto de propósito: buscadores e rastreadores de IA podem ler o site (GEO & SEO).
 const AI_CRAWLERS = [
   "GPTBot",
   "OAI-SearchBot",
@@ -13,6 +13,13 @@ const AI_CRAWLERS = [
   "Perplexity-User",
   "Google-Extended",
   "Applebot-Extended",
+  "Meta-ExternalAgent",
+  "Meta-ExternalFetcher",
+  "cohere-ai",
+  "Amazonbot",
+  "Bytespider",
+  "Diffbot",
+  "DuckAssistBot",
   "CCBot",
 ];
 

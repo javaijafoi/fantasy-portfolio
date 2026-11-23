@@ -36,6 +36,42 @@ body {
   background-size: 40px 40px;
 }
 
+/* CRT Scanlines Effect */
+.os-scanlines {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0) 50%,
+    rgba(0, 0, 0, 0.24) 50%,
+    rgba(0, 0, 0, 0.24)
+  );
+  background-size: 100% 4px;
+}
+
+/* PICO-8 / Picotron hard shadow */
+.pico-shadow {
+  box-shadow: 4px 4px 0px #000000;
+}
+
+.pico-shadow-sm {
+  box-shadow: 2px 2px 0px #000000;
+}
+
+/* Win95 Classic 3D Bevels */
+.win95-bevel {
+  box-shadow:
+    inset 1.5px 1.5px 0px #ffffff,
+    inset -1.5px -1.5px 0px #808080,
+    1.5px 1.5px 0px #000000;
+}
+
+.win95-inset {
+  box-shadow:
+    inset 1.5px 1.5px 0px #808080,
+    inset -1.5px -1.5px 0px #ffffff,
+    inset 2.5px 2.5px 0px #000000;
+}
+
 /* Neon Glows */
 .neon-glow-pink {
   box-shadow: 0 0 25px rgba(255, 42, 133, 0.35);
@@ -45,26 +81,10 @@ body {
   box-shadow: 0 0 25px rgba(0, 240, 255, 0.35);
 }
 
-.neon-text-pink {
-  text-shadow: 0 0 10px rgba(255, 42, 133, 0.6), 0 0 20px rgba(255, 42, 133, 0.3);
-}
-
-.neon-text-cyan {
-  text-shadow: 0 0 10px rgba(0, 240, 255, 0.6), 0 0 20px rgba(0, 240, 255, 0.3);
-}
-
-.neon-text-yellow {
-  text-shadow: 0 0 10px rgba(255, 222, 89, 0.6), 0 0 20px rgba(255, 222, 89, 0.3);
-}
-
 /* Glassmorphism Card */
 .glass-card {
-  background: rgba(26, 16, 48, 0.7);
+  background: rgba(26, 16, 48, 0.72);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.14);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
-}
-
-.glass-card:hover {
-  border-color: rgba(255, 42, 133, 0.4);
 }
