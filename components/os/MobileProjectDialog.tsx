@@ -109,7 +109,7 @@ export default function MobileProjectDialog({
       {activeOS === "sunset" && (
         <div className="bg-gradient-to-r from-[#ff2a85] via-purple-500 to-cyan-400 text-black px-4 py-2 flex items-center justify-between">
           <span className="font-retro text-xs tracking-wide">
-            NOW PLAYING // TRACK {String(safeIdx + 1).padStart(2, "0")}
+            PROJETO {String(safeIdx + 1).padStart(2, "0")}
           </span>
           <button
             type="button"
@@ -285,7 +285,7 @@ export default function MobileProjectDialog({
             }
           >
             <Play className="w-3.5 h-3.5 fill-current" />
-            <span>ABRIR DEMO</span>
+            <span>ABRIR PROJETO</span>
             <ArrowUpRight className="w-3.5 h-3.5" />
           </button>
 

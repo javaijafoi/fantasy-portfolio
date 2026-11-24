@@ -249,7 +249,7 @@ export default function Win95OS({
                 onClick={() => onLaunch(selectedProject.vercelUrl)}
                 className="px-5 py-2 bg-[#c0c0c0] hover:bg-[#d4d4d4] text-black font-bold text-xs win95-bevel cursor-pointer active:translate-y-px flex items-center gap-1.5"
               >
-                <span>▶ Executar Aplicativo (Vercel)</span>
+                <span>▶ Abrir projeto</span>
                 <ArrowUpRight className="w-3.5 h-3.5" />
               </button>
               {selectedProject.githubUrl && (
@@ -260,7 +260,7 @@ export default function Win95OS({
                   className="px-4 py-2 bg-[#c0c0c0] hover:bg-[#d4d4d4] text-black text-xs font-bold win95-bevel flex items-center gap-1.5"
                 >
                   <GithubIcon className="w-3.5 h-3.5" />
-                  <span>Código no GitHub</span>
+                  <span>Código-fonte</span>
                 </a>
               )}
             </div>
