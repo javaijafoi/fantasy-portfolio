@@ -26,7 +26,7 @@ export default function Home() {
                 {p.tagline}. {p.description}
               </p>
               <p>Tecnologias: {p.techStack.join(", ")}</p>
-              {p.githubUrl ? <a href={p.githubUrl}>Código no GitHub</a> : null}
+              {p.githubUrl ? <a href={p.githubUrl}>Código-fonte</a> : null}
             </li>
           ))}
         </ul>
@@ -34,7 +34,7 @@ export default function Home() {
         <ul>
           {EXTRA_PROJECTS.map((p) => (
             <li key={p.name}>
-              <a href={p.url}>{p.name}</a>: {p.description} <a href={p.repo}>Código no GitHub</a>
+              <a href={p.url}>{p.name}</a>: {p.description} <a href={p.repo}>Código-fonte</a>
             </li>
           ))}
         </ul>

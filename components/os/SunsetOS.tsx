@@ -290,7 +290,7 @@ export default function SunsetOS({
 
               {/* Bonus Tracks */}
               <div className="pt-2 border-t border-white/15 flex flex-wrap items-center justify-between gap-2 text-xs">
-                <span className="font-mono-code text-cyan-300">BONUS TRACKS (SIDE B):</span>
+                <span className="font-mono-code text-cyan-300">OUTROS PROJETOS (LADO B):</span>
                 <div className="flex flex-wrap gap-2">
                   {EXTRA_PROJECTS.map((ep) => (
                     <a

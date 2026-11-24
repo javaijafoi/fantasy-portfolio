@@ -28,13 +28,13 @@ Uma vitrine interativa que alterna entre cinco estéticas de sistemas operaciona
 | Fita | Projeto | O que é | Código |
 | --- | --- | --- | --- |
 | 01 | [**Pico Multitool**](https://multitool.javaijafoi.dev) | 50 ferramentas que rodam no aparelho: remover fundo, vídeo, áudio, PDF, CPF, QR Code e mais | [repo](https://github.com/javaijafoi/pico-tools) |
-| 02 | [**Rolador**](https://rolador.javaijafoi.dev) | Dados para qualquer RPG de mesa, com cara de PICO-8 | [repo](https://github.com/javaijafoi/rolador) |
+| 02 | [**Rolador**](https://rolador.javaijafoi.dev) | Rolador de dados para doze sistemas de RPG de mesa | [repo](https://github.com/javaijafoi/rolador) |
 | 03 | [**Matusalém**](https://matusalem.javaijafoi.dev) | História interativa de mistério no Bixiga | — |
-| 04 | [**Pico Poetry**](https://poesia.javaijafoi.dev) | Petiscos de poesia em pixel: sorteie, escolha as cores e compartilhe | [repo](https://github.com/javaijafoi/pico-poetry) |
+| 04 | [**Pico Poetry**](https://poesia.javaijafoi.dev) | 98 poemas autorais: sorteie, escolha as cores e compartilhe | [repo](https://github.com/javaijafoi/pico-poetry) |
 | 05 | [**Arena de Arton**](https://arena.javaijafoi.dev) | Simulador de combate tático por turnos de Tormenta 20 (homenagem de fã) | [repo](https://github.com/javaijafoi/arena-de-arton) |
 | 06 | [**Pinta-Kara**](https://pintakara.javaijafoi.dev) | Desenhe no ar com as mãos, usando só a webcam | [repo](https://github.com/javaijafoi/pinta-kara) |
 | 07 | [**Era Vargas: O Equilibrista**](https://equilibrista.javaijafoi.dev) | Jogo 3D de decisões sobre o Brasil de 1930 a 1945 | [repo](https://github.com/javaijafoi/era-vargas-seliga) |
-| 08 | [**Picotron Arena**](https://picotron.javaijafoi.dev) | Dez modos de arcade caóticos num computador de fantasia | [repo](https://github.com/javaijafoi/picotron-arcade) |
+| 08 | [**Picotron Arena**](https://picotron.javaijafoi.dev) | Dez modos de arcade num computador de fantasia | [repo](https://github.com/javaijafoi/picotron-arcade) |
 | 09 | [**Jogo do Davi**](https://jogodavi.javaijafoi.dev) | Jogo para crianças aprenderem a ler e a contar | [repo](https://github.com/javaijafoi/Jogo-davi) |
 | 10 | [**Antigravitus**](https://antigravitus.javaijafoi.dev) | Diário de aventuras num RPG de texto, jogado por agentes de IA | [repo](https://github.com/javaijafoi/antigravitus) |
 | 11 | [**#iHunt Chronicle**](https://ihunt.javaijafoi.dev) | Mesa virtual completa em tempo real para o RPG #iHunt (sistema Fate), feita por fã | — |

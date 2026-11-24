@@ -17,9 +17,9 @@ export interface ProjectCard {
 export const CALIFORNIA_PROJECTS: ProjectCard[] = [
   {
     id: "pico-multitool",
-    tag: "TRACK 01 // TOOLS",
+    tag: "01 // FERRAMENTAS",
     title: "Pico Multitool",
-    tagline: "50 ferramentas úteis que rodam no seu aparelho, em pixel",
+    tagline: "50 ferramentas que rodam no navegador, sem upload e sem cadastro",
     description:
       "Remover fundo de foto com IA, comprimir e cortar vídeo, OCR de imagem e PDF, recorte para redes sociais, juntar e dividir PDF, comprimir imagem, gerar CPF e CNPJ válidos, QR Code e calculadoras. Tudo roda no navegador, sem upload e sem cadastro, e dá para pedir a próxima ferramenta num formulário.",
     techStack: ["JavaScript", "ffmpeg.wasm", "pdf-lib", "PWA"],
@@ -33,11 +33,11 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
   },
   {
     id: "rolador",
-    tag: "TRACK 02 // TABLETOP",
+    tag: "02 // RPG DE MESA",
     title: "Rolador",
-    tagline: "Dados para qualquer RPG de mesa, com cara de PICO-8",
+    tagline: "Rolador de dados para doze sistemas de RPG de mesa",
     description:
-      "Um rolador com cartuchos para doze sistemas: D&D e Tormenta, Fate, Vampiro V5, Storyteller, Cthulhu, Shadowrun, Savage Worlds, Blades, Daggerheart, GURPS e mais. Cada um aplica as regras certas, como vantagem, dados de Fome e explosão, e a notação livre aceita 4d6kh3 ou 8d10>=7. O histórico fica só no seu navegador.",
+      "Um rolador para doze sistemas: D&D e Tormenta, Fate, Vampiro V5, Storyteller, Cthulhu, Shadowrun, Savage Worlds, Blades, Daggerheart, GURPS e mais. Cada um aplica as regras certas, como vantagem, dados de Fome e explosão, e a notação livre aceita 4d6kh3 ou 8d10>=7. O histórico fica só no seu navegador.",
     techStack: ["React", "TypeScript", "Vite", "WebAudio"],
     gradient: "from-fuchsia-500 via-red-600 to-indigo-900",
     accentColor: "#ff004d",
@@ -45,11 +45,11 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     vercelUrl: "https://rolador.javaijafoi.dev",
     githubUrl: "https://github.com/javaijafoi/rolador",
     icon: "🎲",
-    rating: "ROLL INITIATIVE",
+    rating: "12 SISTEMAS",
   },
   {
     id: "matusalem",
-    tag: "TRACK 03 // NOIR PAULISTANO",
+    tag: "03 // FICÇÃO INTERATIVA",
     title: "Matusalém",
     tagline: "Uma história interativa de mistério no Bixiga",
     description:
@@ -60,15 +60,15 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     badgeColor: "bg-purple-500/20 text-purple-300 border-purple-500/40",
     vercelUrl: "https://matusalem.javaijafoi.dev",
     icon: "⏳",
-    rating: "STORY MODE",
+    rating: "NOIR NO BIXIGA",
   },
   {
     id: "pico-poetry",
-    tag: "TRACK 04 // POETRY",
+    tag: "04 // POESIA",
     title: "Pico Poetry",
-    tagline: "Petiscos de poesia em pixel, prontos para compartilhar",
+    tagline: "98 poemas autorais, com cartões para compartilhar",
     description:
-      "98 poemas meus num site em estilo PICO-8. Ele abre numa poesia sorteada, tem índice com busca e transforma qualquer poema numa imagem pixelada com o endereço do site embaixo. Dá para trocar as cores do cartão antes de enviar. Sem cadastro e sem rastreamento.",
+      "98 poemas autorais num site em estilo PICO-8. Abre num poema sorteado, tem índice com busca e transforma qualquer poema numa imagem pixelada com o endereço do site embaixo. Dá para trocar as cores do cartão antes de enviar. Sem cadastro e sem rastreamento.",
     techStack: ["HTML", "CSS", "JavaScript", "Canvas"],
     gradient: "from-pink-400 via-fuchsia-500 to-indigo-900",
     accentColor: "#ff77a8",
@@ -76,11 +76,11 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     vercelUrl: "https://poesia.javaijafoi.dev",
     githubUrl: "https://github.com/javaijafoi/pico-poetry",
     icon: "🍬",
-    rating: "SORTEIE UMA",
+    rating: "98 POEMAS",
   },
   {
     id: "arena-de-arton",
-    tag: "TRACK 05 // TÁTICO",
+    tag: "05 // RPG TÁTICO",
     title: "Arena de Arton",
     tagline: "Simulador de combate tático por turnos de Tormenta 20",
     description:
@@ -92,11 +92,11 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     vercelUrl: "https://arena.javaijafoi.dev",
     githubUrl: "https://github.com/javaijafoi/arena-de-arton",
     icon: "⚔️",
-    rating: "ROLL INITIATIVE",
+    rating: "TÁTICO POR TURNOS",
   },
   {
     id: "pinta-kara",
-    tag: "TRACK 06 // AR SKETCH",
+    tag: "06 // VISÃO COMPUTACIONAL",
     title: "Pinta-Kara",
     tagline: "Desenhe no ar com as mãos, usando só a webcam",
     description:
@@ -108,11 +108,11 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     vercelUrl: "https://pintakara.javaijafoi.dev",
     githubUrl: "https://github.com/javaijafoi/pinta-kara",
     icon: "✋",
-    rating: "HANDS ON",
+    rating: "SÓ COM A WEBCAM",
   },
   {
     id: "era-vargas",
-    tag: "TRACK 07 // AULA EM 3D",
+    tag: "07 // EDUCAÇÃO",
     title: "Era Vargas: O Equilibrista",
     tagline: "Um jogo 3D de decisões sobre o Brasil de 1930 a 1945",
     description:
@@ -124,13 +124,13 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     vercelUrl: "https://equilibrista.javaijafoi.dev",
     githubUrl: "https://github.com/javaijafoi/era-vargas-seliga",
     icon: "🎭",
-    rating: "HISTORY MODE",
+    rating: "JOGO 3D",
   },
   {
     id: "picotron-arena",
-    tag: "TRACK 08 // ARCADE",
+    tag: "08 // ARCADE",
     title: "Picotron Arena",
-    tagline: "Dez modos de arcade caóticos dentro de um computador de fantasia",
+    tagline: "Dez modos de arcade dentro de um computador de fantasia",
     description:
       "Uma estação de trabalho retrô inspirada no Picotron, num único arquivo HTML. São dez cartuchos de ação, do Liquidificador Cósmico ao Dominó de Pólvora, e um modo que junta todos ao mesmo tempo. Funciona no PC e no celular, com tela cheia e botões de toque, e guarda o progresso no próprio navegador.",
     techStack: ["JavaScript", "Canvas", "HTML único", "localStorage"],
@@ -140,13 +140,13 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     vercelUrl: "https://picotron.javaijafoi.dev",
     githubUrl: "https://github.com/javaijafoi/picotron-arcade",
     icon: "🕹️",
-    rating: "ARCADE HIT",
+    rating: "10 MODOS DE JOGO",
   },
   {
     id: "jogo-davi",
-    tag: "TRACK 09 // ALFABETIZAÇÃO",
+    tag: "09 // ALFABETIZAÇÃO",
     title: "Jogo do Davi",
-    tagline: "Um jogo para crianças aprenderem a ler e a contar",
+    tagline: "Alfabetização pelo método fônico, em atividades curtas",
     description:
       "Atividades curtas de alfabetização pelo método fônico, das vogais às primeiras palavras, mais uma trilha de números. Uma tarefa por tela, nenhuma punição pelo erro e uma dica quando a criança empaca. O que ela erra volta com mais frequência nas sessões seguintes, para fixar no ritmo de cada um.",
     techStack: ["React", "TypeScript", "Vite", "Repetição espaçada"],
@@ -156,13 +156,13 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     vercelUrl: "https://jogodavi.javaijafoi.dev",
     githubUrl: "https://github.com/javaijafoi/Jogo-davi",
     icon: "🌴",
-    rating: "ALL AGES",
+    rating: "ALFABETIZAÇÃO",
   },
   {
     id: "antigravitus",
-    tag: "TRACK 10 // ROLEPLAY LOG",
+    tag: "10 // IA E RPG DE TEXTO",
     title: "Antigravitus",
-    tagline: "Um diário de aventuras num RPG de texto, jogado por agentes de IA",
+    tagline: "Crônicas de um RPG de texto jogado por agentes de IA",
     description:
       "Um herói vive no Devil's Bob MUD, um RPG de texto online que ainda roda desde os anos 90. Agentes de IA jogam com ele em rotinas supervisionadas e transformam cada sessão em crônica, com ficha, mapa e diário publicados num site. Nada é inventado: cada capítulo sai do que o jogo realmente mostrou.",
     techStack: ["Python", "Agentes de IA", "HTML/CSS/JS", "MUD"],
@@ -172,11 +172,11 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     vercelUrl: "https://antigravitus.javaijafoi.dev",
     githubUrl: "https://github.com/javaijafoi/antigravitus",
     icon: "⚡",
-    rating: "AI POWERED",
+    rating: "AGENTES DE IA",
   },
   {
     id: "ihunt-chronicle",
-    tag: "TRACK 11 // MESA VIRTUAL",
+    tag: "11 // MESA VIRTUAL",
     title: "#iHunt Chronicle",
     tagline: "Uma mesa virtual completa para o RPG #iHunt, feita por fã",
     description:
@@ -187,6 +187,6 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     badgeColor: "bg-red-500/20 text-red-300 border-red-500/40",
     vercelUrl: "https://ihunt.javaijafoi.dev",
     icon: "🩸",
-    rating: "LIVE TABLE",
+    rating: "TEMPO REAL",
   },
 ];
