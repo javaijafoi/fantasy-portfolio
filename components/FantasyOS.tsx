@@ -32,7 +32,7 @@ function subscribeOS(callback: () => void): () => void {
 
 function getSnapshotOS(): OSThemeId | null {
   const attr = document.documentElement.getAttribute("data-os") as OSThemeId | null;
-  return attr && VALID_OS_IDS.has(attr) ? attr : "picotron";
+  return attr && VALID_OS_IDS.has(attr) ? attr : "sunset";
 }
 
 function getServerSnapshotOS(): OSThemeId | null {
@@ -122,7 +122,7 @@ export default function FantasyOS() {
 
   const handleRandomizeOS = useCallback(() => {
     sound.playLaunchChord();
-    const current = activeOS || "picotron";
+    const current = activeOS || "sunset";
     const others = OS_THEMES.filter((t) => t.id !== current);
     const pick = others[Math.floor(Math.random() * others.length)];
     applyOS(pick.id);
@@ -215,7 +215,7 @@ export default function FantasyOS() {
   return (
     <div className="min-h-dvh w-full flex flex-col os-boot-screen relative overflow-x-clip">
       <KvmBar
-        activeOS={activeOS || "picotron"}
+        activeOS={activeOS || "sunset"}
         mounted={activeOS !== null}
         soundOn={soundOn}
         osMenuOpen={osMenuOpen}
