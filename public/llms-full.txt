@@ -49,42 +49,48 @@ Todos os projetos do portfólio priorizam execução **client-side no navegador*
 - **Stack:** Vanilla JavaScript, HTML/CSS, Web Audio API, Supabase RPC (save em nuvem opcional).
 - **Arquitetura:** Simulador de combate tático por turnos em grade 16×12 e modo roguelike de 5 andares até o nível 20. Motor de regras desacoplado da UI (`js/rules.js`, `js/run.js`, `js/ai.js`), magias até o 4º círculo, manobras, ataque de oportunidade, voo e suíte de simulação automatizada em Node.js (`test/sim.js`, `test/run-sim.js`).
 
-### TRACK 06 // Pinta-Kara
+### TRACK 06 // Rede
+- **Produção:** https://rede.javaijafoi.dev
+- **Repositório:** https://github.com/javaijafoi/rede
+- **Stack:** HTML5 único (`index.html`), JavaScript puro, Fetch API, Canvas 2D, Resource Timing, Network Information API, Screen Wake Lock API, `localStorage`.
+- **Arquitetura:** Diagnóstico de internet móvel 100% no navegador, sem servidor próprio. O teste rápido (~2 MB) mede latência, jitter e perda com pings `fetch` em modo `no-cors` a três servidores (Cloudflare, 1.1.1.1, Google), download e upload contra speed.cloudflare.com, tempo de DNS por DNS sobre HTTPS e operadora via `/meta`. O modo monitor faz um ping por segundo por 2, 5 ou 10 minutos, desenha o gráfico ao vivo e registra cada travada. Um motor de regras gera o veredito em português, o que dá para fazer (mensagens, vídeo, chamada, jogos) e dicas. O histórico fica só em `localStorage`.
+
+### TRACK 07 // Pinta-Kara
 - **Produção:** https://pintakara.javaijafoi.dev
 - **Repositório:** https://github.com/javaijafoi/pinta-kara
 - **Licença:** MIT
 - **Stack:** JavaScript, `@mediapipe/tasks-vision` (Hand Landmarker), Canvas 2D, Vite.
 - **Arquitetura:** Desenho em realidade aumentada via webcam com rastreamento bimanual a 60 FPS no cliente. Gesto de pinça (polegar + indicador) controla traço e botões de interface no ar. Zero transmissão de vídeo pela rede.
 
-### TRACK 07 // Era Vargas: O Equilibrista
+### TRACK 08 // Era Vargas: O Equilibrista
 - **Produção:** https://equilibrista.javaijafoi.dev
 - **Repositório:** https://github.com/javaijafoi/era-vargas-seliga
 - **Licença:** MIT
 - **Stack:** React, TypeScript, Three.js, React Three Fiber (`@react-three/fiber`), Remotion, Kokoro TTS (ONNX).
 - **Arquitetura:** Jogo 3D low-poly de decisões históricas (1930–1945) ambientado no Palácio do Catete, equilibrando quatro pilares políticos (Exército, Povo, Elite e Controle), compartilhando um kit 3D procedural com um pipeline de geração de vídeos educacionais em código.
 
-### TRACK 08 // Picotron Arena (PICO-OS Arcade)
+### TRACK 09 // Picotron Arena (PICO-OS Arcade)
 - **Produção:** https://picotron.javaijafoi.dev
 - **Repositório:** https://github.com/javaijafoi/picotron-arcade
 - **Licença:** MIT
 - **Stack:** HTML5 único (`index.html`), Vanilla JavaScript, Canvas 2D, Web Audio API, `localStorage`.
 - **Arquitetura:** Estação arcade retrô single-file contendo 10 jogos completos (Survivor com 10 mutadores, Truco Paulista/Mineiro, Pinball, Enduro, Obra, Lunar Lander, Sinuca, Puyo-Tris, Pac-Glitch e Travessia), Modo Kids adaptativo em todos os cartuchos, controles touch dedicados e exportação/importação de save JSON.
 
-### TRACK 09 // Jogo do Davi
+### TRACK 10 // Jogo do Davi
 - **Produção:** https://jogodavi.javaijafoi.dev
 - **Repositório:** https://github.com/javaijafoi/Jogo-davi
 - **Licença:** MIT
 - **Stack:** React 19, TypeScript 5, Vite, `vite-plugin-singlefile`, Supabase RPC (PostgreSQL + `pgcrypto`).
 - **Arquitetura:** Jogo infantil de alfabetização fônica e matemática básica com repetição espaçada adaptativa. Sincronização offline-first com autenticação infantil segura via RPC (`jogo_davi_entrar`) protegida por bcrypt, tokens SHA-256 e rate-limit por IP.
 
-### TRACK 10 // Antigravitus: As Crônicas de Midgaard
+### TRACK 11 // Antigravitus: As Crônicas de Midgaard
 - **Produção:** https://antigravitus.javaijafoi.dev
 - **Repositório:** https://github.com/javaijafoi/antigravitus
 - **Licença:** MIT
 - **Stack:** Python 3 (daemon TCP/IPC, parser Telnet/ANSI, automação e validação documental), HTML/CSS/JS estático.
 - **Arquitetura:** Compêndio literário e ficha auditável de personagens jogados por agentes de IA no Devil's Bob MUD (`debomud.org:4000`). Separação estrita entre evidência de sessão ao vivo, estado estruturado (`state.json`, `mapa.json`) e narrativa dividida em temporadas e tomos.
 
-### TRACK 11 // #iHunt Chronicle
+### TRACK 12 // #iHunt Chronicle
 - **Produção:** https://ihunt.javaijafoi.dev
 - **Stack:** React, TypeScript, Vite, Tailwind CSS, Firebase Auth & Cloud Firestore, Vitest (`@firebase/rules-unit-testing`).
 - **Arquitetura:** Virtual Tabletop (VTT) em tempo real para o RPG #iHunt (Fate Core), com salas por código de convite, fichas sincronizadas, rolagem, tokens em cena, ferramentas de segurança (Linhas e Véus / X-Card) e regras de Firestore testadas em emulador.

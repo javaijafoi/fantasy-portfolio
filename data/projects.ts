@@ -95,8 +95,24 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     rating: "TÁTICO POR TURNOS",
   },
   {
+    id: "rede",
+    tag: "06 // DIAGNÓSTICO",
+    title: "Rede",
+    tagline: "Descubra por que a internet do celular está engasgando",
+    description:
+      "Um teste de 20 segundos mede latência, jitter, perda, download, upload, DNS e operadora, e traduz tudo num veredito em português: o que dá para fazer agora e o que tentar. O modo monitor segue a conexão por 2, 5 ou 10 minutos e anota cada travada com o horário. Gasta pouco dado e não grava nada.",
+    techStack: ["JavaScript", "Fetch API", "Canvas", "Network Information API"],
+    gradient: "from-cyan-400 via-blue-600 to-slate-900",
+    accentColor: "#29adff",
+    badgeColor: "bg-sky-500/20 text-sky-300 border-sky-500/40",
+    vercelUrl: "https://rede.javaijafoi.dev",
+    githubUrl: "https://github.com/javaijafoi/rede",
+    icon: "📶",
+    rating: "TESTE EM 20 SEGUNDOS",
+  },
+  {
     id: "pinta-kara",
-    tag: "06 // VISÃO COMPUTACIONAL",
+    tag: "07 // VISÃO COMPUTACIONAL",
     title: "Pinta-Kara",
     tagline: "Desenhe no ar com as mãos, usando só a webcam",
     description:
@@ -112,7 +128,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
   },
   {
     id: "era-vargas",
-    tag: "07 // EDUCAÇÃO",
+    tag: "08 // EDUCAÇÃO",
     title: "Era Vargas: O Equilibrista",
     tagline: "Um jogo 3D de decisões sobre o Brasil de 1930 a 1945",
     description:
@@ -128,7 +144,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
   },
   {
     id: "picotron-arena",
-    tag: "08 // ARCADE",
+    tag: "09 // ARCADE",
     title: "Picotron Arena",
     tagline: "Dez modos de arcade dentro de um computador de fantasia",
     description:
@@ -144,7 +160,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
   },
   {
     id: "jogo-davi",
-    tag: "09 // ALFABETIZAÇÃO",
+    tag: "10 // ALFABETIZAÇÃO",
     title: "Jogo do Davi",
     tagline: "Alfabetização pelo método fônico, em atividades curtas",
     description:
@@ -160,7 +176,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
   },
   {
     id: "antigravitus",
-    tag: "10 // IA E RPG DE TEXTO",
+    tag: "11 // IA E RPG DE TEXTO",
     title: "Antigravitus",
     tagline: "Crônicas de um RPG de texto jogado por agentes de IA",
     description:
@@ -176,7 +192,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
   },
   {
     id: "ihunt-chronicle",
-    tag: "11 // MESA VIRTUAL",
+    tag: "12 // MESA VIRTUAL",
     title: "#iHunt Chronicle",
     tagline: "Uma mesa virtual completa para o RPG #iHunt, feita por fã",
     description:
