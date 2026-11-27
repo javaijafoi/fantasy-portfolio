@@ -71,7 +71,7 @@ const jetbrainsMono = JetBrains_Mono({
   variable: "--font-mono-code",
 });
 
-const BOOT_SCRIPT = `(function(){try{var o=["picotron","arcana","sunset","mainframe","win95"];var q=new URLSearchParams(location.search).get("os");var p=(q&&o.indexOf(q)!==-1)?q:o[Math.floor(Math.random()*o.length)];document.documentElement.setAttribute("data-os",p);}catch(e){document.documentElement.setAttribute("data-os","picotron");}})();`;
+const BOOT_SCRIPT = `(function(){try{var o=["picotron","arcana","sunset","mainframe","win95"];var q=new URLSearchParams(location.search).get("os");var p=(q&&o.indexOf(q)!==-1)?q:"sunset";document.documentElement.setAttribute("data-os",p);}catch(e){document.documentElement.setAttribute("data-os","sunset");}})();`;
 
 export const viewport: Viewport = {
   themeColor: "#090612",
