@@ -19,7 +19,7 @@ A vitrine funciona como um **Fantasy OS** com 5 sistemas retrô alternáveis (`J
 
 ## 🕹️ O que tem lá
 
-Uma vitrine interativa que alterna entre cinco estéticas de sistemas operacionais retrô (`?os=picotron|arcana|sunset|mainframe|win95`). Cada projeto tem chamada, descrição, stack, botão para abrir no navegador e link para o código.
+Uma vitrine interativa que alterna entre cinco estéticas de sistemas operacionais retrô (`?os=picotron|arcana|sunset|mainframe|win95`). O tema padrão é o Sunset-OS '88. Cada projeto tem chamada, descrição, stack, botão para abrir no navegador e link para o código.
 
 <div align="center">
 <img src="docs/img/projetos.jpg" alt="Cartões dos projetos: Matusalém, Era Vargas, Pinta-Kara, iHunt Chronicle e Rolador" width="820">
