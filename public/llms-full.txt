@@ -49,17 +49,17 @@ Todos os projetos do portfólio priorizam execução **client-side no navegador*
 - **Stack:** Vanilla JavaScript, HTML/CSS, Web Audio API, Supabase RPC (save em nuvem opcional).
 - **Arquitetura:** Simulador de combate tático por turnos em grade 16×12 e modo roguelike de 5 andares até o nível 20. Motor de regras desacoplado da UI (`js/rules.js`, `js/run.js`, `js/ai.js`), magias até o 4º círculo, manobras, ataque de oportunidade, voo e suíte de simulação automatizada em Node.js (`test/sim.js`, `test/run-sim.js`).
 
-### TRACK 06 // Pico Tafl
-- **Produção:** https://tafl.javaijafoi.dev
-- **Repositório:** https://github.com/javaijafoi/tafl
-- **Stack:** HTML5 único (`index.html`), JavaScript puro, Canvas 2D com pixel art desenhada por código, Web Audio API, `localStorage` (só a opção de som).
-- **Arquitetura:** Hnefatafl 11×11 e Tablut 9×9. Motor de regras próprio (movimento de torre, captura por custódia, cantos e trono hostis, rei armado, captura do rei por 4 lados ou 3 na borda, empate por tripla repetição). IA com minimax, poda alfa-beta, busca iterativa por tempo e avaliação por material, linhas livres do rei, rotas até os cantos e guarda dos cantos, em três níveis. Autoteste da IA jogando contra ela mesma em Node.js (`test-ia.js`).
-
-### TRACK 07 // Rede
+### TRACK 06 // Rede
 - **Produção:** https://rede.javaijafoi.dev
 - **Repositório:** https://github.com/javaijafoi/rede
 - **Stack:** HTML5 único (`index.html`), JavaScript puro, Fetch API, Canvas 2D, Resource Timing, Network Information API, Screen Wake Lock API, `localStorage`.
 - **Arquitetura:** Diagnóstico de internet móvel 100% no navegador, sem servidor próprio. O teste rápido (~2 MB) mede latência, jitter e perda com pings `fetch` em modo `no-cors` a três servidores (Cloudflare, 1.1.1.1, Google), download e upload contra speed.cloudflare.com, tempo de DNS por DNS sobre HTTPS e operadora via `/meta`. O modo monitor faz um ping por segundo por 2, 5 ou 10 minutos, desenha o gráfico ao vivo e registra cada travada. Um motor de regras gera o veredito em português, o que dá para fazer (mensagens, vídeo, chamada, jogos) e dicas. O histórico fica só em `localStorage`.
+
+### TRACK 07 // Pico Tafl
+- **Produção:** https://tafl.javaijafoi.dev
+- **Repositório:** https://github.com/javaijafoi/tafl
+- **Stack:** HTML5 único (`index.html`), JavaScript puro, Canvas 2D com pixel art desenhada por código, Web Audio API, `localStorage` (só a opção de som).
+- **Arquitetura:** Hnefatafl 11×11 e Tablut 9×9. Motor de regras próprio (movimento de torre, captura por custódia, cantos e trono hostis, rei armado, captura do rei por 4 lados ou 3 na borda, empate por tripla repetição). IA com minimax, poda alfa-beta, busca iterativa por tempo e avaliação por material, linhas livres do rei, rotas até os cantos e guarda dos cantos, em três níveis. Autoteste da IA jogando contra ela mesma em Node.js (`test-ia.js`).
 
 ### TRACK 08 // Pinta-Kara
 - **Produção:** https://pintakara.javaijafoi.dev
