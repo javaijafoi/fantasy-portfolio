@@ -95,24 +95,8 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     rating: "TÁTICO POR TURNOS",
   },
   {
-    id: "pico-tafl",
-    tag: "06 // JOGO DE TABULEIRO",
-    title: "Pico Tafl",
-    tagline: "Hnefatafl, o xadrez dos vikings, contra uma IA ou contra um amigo",
-    description:
-      "Defenda o rei até um canto do tabuleiro ou cerque-o antes que ele escape. Tem Hnefatafl 11×11 e Tablut 9×9, três níveis de IA (Aprendiz, Guerreiro e Jarl), modo para dois jogadores no mesmo aparelho, sons em 8 bits e um fiorde pixelado com aurora ao fundo. Roda no navegador, no PC e no celular, sem cadastro.",
-    techStack: ["JavaScript", "Canvas", "Minimax", "WebAudio"],
-    gradient: "from-sky-300 via-indigo-600 to-slate-900",
-    accentColor: "#f2c14e",
-    badgeColor: "bg-amber-500/20 text-amber-200 border-amber-500/40",
-    vercelUrl: "https://tafl.javaijafoi.dev",
-    githubUrl: "https://github.com/javaijafoi/tafl",
-    icon: "🛡️",
-    rating: "VS IA OU 2 JOGADORES",
-  },
-  {
     id: "rede",
-    tag: "07 // DIAGNÓSTICO",
+    tag: "06 // DIAGNÓSTICO",
     title: "Rede",
     tagline: "Descubra por que a internet do celular está engasgando",
     description:
@@ -125,6 +109,22 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     githubUrl: "https://github.com/javaijafoi/rede",
     icon: "📶",
     rating: "TESTE EM 20 SEGUNDOS",
+  },
+  {
+    id: "pico-tafl",
+    tag: "07 // JOGO DE TABULEIRO",
+    title: "Pico Tafl",
+    tagline: "Hnefatafl, o xadrez dos vikings, contra uma IA ou contra um amigo",
+    description:
+      "Defenda o rei até um canto do tabuleiro ou cerque-o antes que ele escape. Tem Hnefatafl 11×11 e Tablut 9×9, três níveis de IA (Aprendiz, Guerreiro e Jarl), modo para dois jogadores no mesmo aparelho, sons em 8 bits e um fiorde pixelado com aurora ao fundo. Roda no navegador, no PC e no celular, sem cadastro.",
+    techStack: ["JavaScript", "Canvas", "Minimax", "WebAudio"],
+    gradient: "from-sky-300 via-indigo-600 to-slate-900",
+    accentColor: "#f2c14e",
+    badgeColor: "bg-amber-500/20 text-amber-200 border-amber-500/40",
+    vercelUrl: "https://tafl.javaijafoi.dev",
+    githubUrl: "https://github.com/javaijafoi/tafl",
+    icon: "🛡️",
+    rating: "VS IA OU 2 JOGADORES",
   },
   {
     id: "pinta-kara",

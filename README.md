@@ -32,8 +32,8 @@ Uma vitrine interativa que alterna entre cinco estéticas de sistemas operaciona
 | 03 | [**Matusalém**](https://matusalem.javaijafoi.dev) | História interativa de mistério no Bixiga | — |
 | 04 | [**Pico Poetry**](https://poesia.javaijafoi.dev) | 98 poemas autorais: sorteie, escolha as cores e compartilhe | [repo](https://github.com/javaijafoi/pico-poetry) |
 | 05 | [**Arena de Arton**](https://arena.javaijafoi.dev) | Simulador de combate tático por turnos de Tormenta 20 (homenagem de fã) | [repo](https://github.com/javaijafoi/arena-de-arton) |
-| 06 | [**Pico Tafl**](https://tafl.javaijafoi.dev) | Hnefatafl, o jogo de tabuleiro dos vikings, contra IA em três níveis ou contra um amigo | [repo](https://github.com/javaijafoi/tafl) |
-| 07 | [**Rede**](https://rede.javaijafoi.dev) | Diagnóstico de internet móvel: teste de 20 segundos e monitor de engasgos, com veredito em português | [repo](https://github.com/javaijafoi/rede) |
+| 06 | [**Rede**](https://rede.javaijafoi.dev) | Diagnóstico de internet móvel: teste de 20 segundos e monitor de engasgos, com veredito em português | [repo](https://github.com/javaijafoi/rede) |
+| 07 | [**Pico Tafl**](https://tafl.javaijafoi.dev) | Hnefatafl, o jogo de tabuleiro dos vikings, contra IA em três níveis ou contra um amigo | [repo](https://github.com/javaijafoi/tafl) |
 | 08 | [**Pinta-Kara**](https://pintakara.javaijafoi.dev) | Desenhe no ar com as mãos, usando só a webcam | [repo](https://github.com/javaijafoi/pinta-kara) |
 | 09 | [**Era Vargas: O Equilibrista**](https://equilibrista.javaijafoi.dev) | Jogo 3D de decisões sobre o Brasil de 1930 a 1945 | [repo](https://github.com/javaijafoi/era-vargas-seliga) |
 | 10 | [**Picotron Arena**](https://picotron.javaijafoi.dev) | Dez modos de arcade num computador de fantasia | [repo](https://github.com/javaijafoi/picotron-arcade) |
