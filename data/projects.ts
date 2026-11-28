@@ -95,8 +95,24 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     rating: "TÁTICO POR TURNOS",
   },
   {
+    id: "pico-tafl",
+    tag: "06 // JOGO DE TABULEIRO",
+    title: "Pico Tafl",
+    tagline: "Hnefatafl, o xadrez dos vikings, contra uma IA ou contra um amigo",
+    description:
+      "Defenda o rei até um canto do tabuleiro ou cerque-o antes que ele escape. Tem Hnefatafl 11×11 e Tablut 9×9, três níveis de IA (Aprendiz, Guerreiro e Jarl), modo para dois jogadores no mesmo aparelho, sons em 8 bits e um fiorde pixelado com aurora ao fundo. Roda no navegador, no PC e no celular, sem cadastro.",
+    techStack: ["JavaScript", "Canvas", "Minimax", "WebAudio"],
+    gradient: "from-sky-300 via-indigo-600 to-slate-900",
+    accentColor: "#f2c14e",
+    badgeColor: "bg-amber-500/20 text-amber-200 border-amber-500/40",
+    vercelUrl: "https://tafl.javaijafoi.dev",
+    githubUrl: "https://github.com/javaijafoi/tafl",
+    icon: "🛡️",
+    rating: "VS IA OU 2 JOGADORES",
+  },
+  {
     id: "rede",
-    tag: "06 // DIAGNÓSTICO",
+    tag: "07 // DIAGNÓSTICO",
     title: "Rede",
     tagline: "Descubra por que a internet do celular está engasgando",
     description:
@@ -112,7 +128,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
   },
   {
     id: "pinta-kara",
-    tag: "07 // VISÃO COMPUTACIONAL",
+    tag: "08 // VISÃO COMPUTACIONAL",
     title: "Pinta-Kara",
     tagline: "Desenhe no ar com as mãos, usando só a webcam",
     description:
@@ -128,7 +144,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
   },
   {
     id: "era-vargas",
-    tag: "08 // EDUCAÇÃO",
+    tag: "09 // EDUCAÇÃO",
     title: "Era Vargas: O Equilibrista",
     tagline: "Um jogo 3D de decisões sobre o Brasil de 1930 a 1945",
     description:
@@ -144,7 +160,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
   },
   {
     id: "picotron-arena",
-    tag: "09 // ARCADE",
+    tag: "10 // ARCADE",
     title: "Picotron Arena",
     tagline: "Dez modos de arcade dentro de um computador de fantasia",
     description:
@@ -160,7 +176,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
   },
   {
     id: "jogo-davi",
-    tag: "10 // ALFABETIZAÇÃO",
+    tag: "11 // ALFABETIZAÇÃO",
     title: "Jogo do Davi",
     tagline: "Alfabetização pelo método fônico, em atividades curtas",
     description:
@@ -176,7 +192,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
   },
   {
     id: "antigravitus",
-    tag: "11 // IA E RPG DE TEXTO",
+    tag: "12 // IA E RPG DE TEXTO",
     title: "Antigravitus",
     tagline: "Crônicas de um RPG de texto jogado por agentes de IA",
     description:
@@ -192,7 +208,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
   },
   {
     id: "ihunt-chronicle",
-    tag: "12 // MESA VIRTUAL",
+    tag: "13 // MESA VIRTUAL",
     title: "#iHunt Chronicle",
     tagline: "Uma mesa virtual completa para o RPG #iHunt, feita por fã",
     description:
