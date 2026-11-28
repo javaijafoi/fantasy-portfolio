@@ -52,6 +52,7 @@ const PROJECT_CATEGORIES: Record<string, string> = {
   "pico-poetry": "MultimediaApplication",
   "arena-de-arton": "GameApplication",
   "pico-tafl": "GameApplication",
+  "pico-faunetes": "GameApplication",
   "rede": "UtilitiesApplication",
   "pinta-kara": "MultimediaApplication",
   "era-vargas": "EducationalApplication",

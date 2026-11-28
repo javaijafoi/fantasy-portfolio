@@ -127,8 +127,24 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     rating: "VS IA OU 2 JOGADORES",
   },
   {
+    id: "pico-faunetes",
+    tag: "08 // JOGO DE TABULEIRO",
+    title: "Pico Faunetes",
+    tagline: "Capture criaturas, evolua e vença os três mestres do Vale Brumoso",
+    description:
+      "Jogo de tabuleiro de criaturas em pixel art: role o dado, ande pelo anel, capture Faunetes com o laço, lute com dados e vantagem de elemento (Folha, Chama e Maré) e evolua. Você enfrenta três IAs e vence quem pegar primeiro as três insígnias dos mestres. Mundo, criaturas e sprites originais, gerados por código. Roda no navegador, no PC e no celular, sem cadastro.",
+    techStack: ["JavaScript", "Pixel art procedural", "WebAudio"],
+    gradient: "from-lime-300 via-emerald-600 to-slate-900",
+    accentColor: "#6bbf59",
+    badgeColor: "bg-emerald-500/20 text-emerald-200 border-emerald-500/40",
+    vercelUrl: "https://faunetes.javaijafoi.dev",
+    githubUrl: "https://github.com/javaijafoi/faunetes",
+    icon: "🐾",
+    rating: "1 JOGADOR VS 3 IAS",
+  },
+  {
     id: "pinta-kara",
-    tag: "08 // VISÃO COMPUTACIONAL",
+    tag: "09 // VISÃO COMPUTACIONAL",
     title: "Pinta-Kara",
     tagline: "Desenhe no ar com as mãos, usando só a webcam",
     description:
@@ -144,7 +160,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
   },
   {
     id: "era-vargas",
-    tag: "09 // EDUCAÇÃO",
+    tag: "10 // EDUCAÇÃO",
     title: "Era Vargas: O Equilibrista",
     tagline: "Um jogo 3D de decisões sobre o Brasil de 1930 a 1945",
     description:
@@ -160,7 +176,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
   },
   {
     id: "picotron-arena",
-    tag: "10 // ARCADE",
+    tag: "11 // ARCADE",
     title: "Picotron Arena",
     tagline: "Dez modos de arcade dentro de um computador de fantasia",
     description:
@@ -176,7 +192,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
   },
   {
     id: "jogo-davi",
-    tag: "11 // ALFABETIZAÇÃO",
+    tag: "12 // ALFABETIZAÇÃO",
     title: "Jogo do Davi",
     tagline: "Alfabetização pelo método fônico, em atividades curtas",
     description:
@@ -192,7 +208,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
   },
   {
     id: "antigravitus",
-    tag: "12 // IA E RPG DE TEXTO",
+    tag: "13 // IA E RPG DE TEXTO",
     title: "Antigravitus",
     tagline: "Crônicas de um RPG de texto jogado por agentes de IA",
     description:
@@ -208,7 +224,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
   },
   {
     id: "ihunt-chronicle",
-    tag: "13 // MESA VIRTUAL",
+    tag: "14 // MESA VIRTUAL",
     title: "#iHunt Chronicle",
     tagline: "Uma mesa virtual completa para o RPG #iHunt, feita por fã",
     description:
