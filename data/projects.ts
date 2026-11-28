@@ -116,7 +116,7 @@ export const CALIFORNIA_PROJECTS: ProjectCard[] = [
     title: "Pico Tafl",
     tagline: "Hnefatafl, o xadrez dos vikings, contra uma IA ou contra um amigo",
     description:
-      "Defenda o rei até um canto do tabuleiro ou cerque-o antes que ele escape. Tem Hnefatafl 11×11 e Tablut 9×9, três níveis de IA (Aprendiz, Guerreiro e Jarl), modo para dois jogadores no mesmo aparelho, sons em 8 bits e um fiorde pixelado com aurora ao fundo. Roda no navegador, no PC e no celular, sem cadastro.",
+      "Defenda o rei até um canto do tabuleiro ou cerque-o antes que ele escape. Tem Hnefatafl 11×11 e Tablut 9×9, peças de guerreiros vikings em pixel art, cinco temas (fiorde, pedra, gelo, fogo e mar), três níveis de IA (Aprendiz, Guerreiro e Jarl), modo para dois jogadores no mesmo aparelho e sons em 8 bits. Roda no navegador, no PC e no celular, sem cadastro.",
     techStack: ["JavaScript", "Canvas", "Minimax", "WebAudio"],
     gradient: "from-sky-300 via-indigo-600 to-slate-900",
     accentColor: "#f2c14e",
